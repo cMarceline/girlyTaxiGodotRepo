@@ -1,6 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1085891573	LaunchSound			\Default Work Unit\LaunchSound	
 	2052572755	PlayTestTone			\Default Work Unit\PlayTestTone	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	587377020	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TestFolder\TestTone\Tone Generator	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1004188566	LaunchSound	F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\.cache\96\{96EC9EF1-AD3C-C8E1-9664-B70570DB45F6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestFolder\LaunchSound		110308
 

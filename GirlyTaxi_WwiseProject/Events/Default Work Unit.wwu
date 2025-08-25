@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="LaunchSound" ID="{0C75DBFE-AC1C-4668-A8CF-4A550E2B676D}">
+					<ChildrenList>
+						<Action Name="" ID="{D42E3592-063E-4D2F-9AFA-EDBF95DDDA76}" ShortID="875167581">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaunchSound" ID="{8018A974-7050-43EF-9A04-FA535F9CF73C}" WorkUnitID="{0806B860-40ED-4CB4-8CB8-E2E25D00B505}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

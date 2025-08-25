@@ -35,6 +35,7 @@
 						<Value Platform="Mac">256</Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjIwODc0IiBtYXNrPSJUREhMODg5NyIgZW5jPSIwIj48bGlj ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iNCwx MCwxNCIgZXhwaXJlcz0iMjAyNS0xMC0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjIxIiBu YW1lPSJNYWludGVuYW5jZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSI0LDEwLDE0IiBl eHBpcmVzPSIyMDI1LTEwLTAxIiAgLz48bGljZW5zZSBpZD0iNzAiIG5hbWU9Iklu ZGllIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iNCwxMCwxNCIgZXhwaXJl cz0iMjAyNS0xMC0wMSIgIC8+PC9wcm9qZWN0Pg==|debR7TJHSFV0pSm+jSh5P3V 2c9CG0QOEkOoCg9R802yXwA5qdyjQdSOq0wsV/rGH4uW7O9WdMxIQPvgt6ZKKCVM GXtbs1mpq6S6pIDbIbVX5h1/apXV2sFxW7FWqytTDRgRcT6iu8Ny0scHLoW6MohD u0HZmqXOd36MOc5bWMozubhbcxJOrPSYRvADM4xxrEZyePae9TTeNEXgtH4o++t5 vXLlsFddPYJugFdIP+pjZxUerOTbMciIsixEvxNINmSgPRsBenJ33/d3q8Iq08UD tv6rp4MCViMlQhI17MOfELw+/Mzy+HkUWWOkXmw3WpwwqILLNOia8H+4+PXa1tA= = "/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\GeneratedSoundBanks"/>
 				<Property Name="SoundBankIncludeSoundbankNamesStrings" Type="bool" Value="False"/>
 				<Property Name="SoundBankPaths" Type="string">
@@ -9993,12 +9994,6 @@
 			<PhysicalFolderList>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
 					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\SFX">
-					<WorkUnit Name="SFX" ID="{27EB4756-D180-4D14-9394-FFD56A333ACA}" PersistMode="Standalone"/>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\SFX\Car">
-					<WorkUnit Name="Car" ID="{78DB1CEF-5ADF-40C4-84F7-A708014A27E3}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>

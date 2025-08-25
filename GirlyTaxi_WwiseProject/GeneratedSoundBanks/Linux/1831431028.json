@@ -10,10 +10,20 @@
     "Type": "User",
     "GUID": "{CF9C14D0-9CFB-4BFF-826A-B3C627C47D98}",
     "Language": "SFX",
-    "Hash": "{0589D51A-65A1-DC2A-CAE0-A1FB71DF057F}",
+    "Hash": "{68B5B6E9-6625-BE2A-683D-BDB0ACA0125A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestSoundBank",
     "ShortName": "TestSoundBank",
     "Path": "1831431028.bnk",
+    "Media": [
+     {
+      "Id": "1004188566",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ESM_MG3_fx_foley_pots_smash_ceramic_03c.wav",
+      "CachePath": "96/{96EC9EF1-AD3C-C8E1-9664-B70570DB45F6}.wem"
+     }
+    ],
     "Plugins": {
      "Custom": [
       {
@@ -27,6 +37,20 @@
      ]
     },
     "Events": [
+     {
+      "Id": "1085891573",
+      "Name": "LaunchSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\LaunchSound",
+      "GUID": "{0C75DBFE-AC1C-4668-A8CF-4A550E2B676D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.573783",
+      "DurationMax": "0.573783",
+      "MediaRefs": [
+       {
+        "Id": "1004188566"
+       }
+      ]
+     },
      {
       "Id": "2052572755",
       "Name": "PlayTestTone",
@@ -46,6 +70,6 @@
     ]
    }
   ],
-  "FileHash": "{8E3A1A7D-7199-F18F-C369-392C163FB63F}"
+  "FileHash": "{C5D7A56B-43EA-ADEB-389E-9A7FEEEBCB1F}"
  }
 }

@@ -30,6 +30,64 @@
 								<ActiveSource Name="Tone Generator" ID="{20AA8AF2-4B11-4D82-B619-9D381C549BCB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="LaunchSound" ID="{8018A974-7050-43EF-9A04-FA535F9CF73C}" ShortID="844790288">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_MG3_fx_foley_pots_smash_ceramic_03c" ID="{D8CFCD24-86B9-428C-8B38-F074C4D57F99}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.404355435358371"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.57378299534386"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-9.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ESM_MG3_fx_foley_pots_smash_ceramic_03c.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1004188566"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_MG3_fx_foley_pots_smash_ceramic_03c" ID="{D8CFCD24-86B9-428C-8B38-F074C4D57F99}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PlayerVehicle" ID="{23E10D01-9875-4EC0-A033-215DA2168259}" ShortID="900031010">
+					<ChildrenList>
+						<BlendContainer Name="PlayerVehicleEngine" ID="{41AEDD1C-1E5A-4A01-9D1F-CA1AA52EC770}" ShortID="129038319">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackList>
+								<BlendTrack Name="OnEngine" ID="{1696812D-2C2C-4F28-8037-88042D1768A9}" ShortID="99888850">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+								</BlendTrack>
+								<BlendTrack Name="OffEngine" ID="{A023A72A-069F-46A6-B07C-384F1F591602}" ShortID="70137599">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
