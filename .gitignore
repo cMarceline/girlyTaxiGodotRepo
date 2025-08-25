@@ -2,6 +2,16 @@
 .godot/
 /android/
 
+# Visual Studio 2015 user specific files
+.vs/
+
+#Visual Studio Code user specific files
+.vscode/
+*.code-workspace
+
+#Rider user specific files
+.idea/
+
 # GITIGNORE template for Wwise Project
 
 .backup*
@@ -13,3 +23,7 @@
 AkWwiseProjectData.asset
 IncrementalSoundBankData.xml
 /Wwise
+
+#Something Something macos
+.DS_Store
+*.TMP
