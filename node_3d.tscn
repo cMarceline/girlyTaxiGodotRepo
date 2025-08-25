@@ -1,7 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://ql2wfyvxykj2"]
+[gd_scene load_steps=9 format=3 uid="uid://ql2wfyvxykj2"]
 
 [ext_resource type="PackedScene" uid="uid://disqvn0wwq0ai" path="res://vehicle.tscn" id="1_a202f"]
+[ext_resource type="Script" uid="uid://bf6bur0pe3euv" path="res://node_3d.gd" id="1_r3fl7"]
 [ext_resource type="Script" uid="uid://c3s7ehcl62vje" path="res://camera_3d.gd" id="2_noarx"]
+[ext_resource type="WwiseEvent" uid="uid://cdf3tda4au5s6" path="res://Wwise/resources/Event/{B6187028-92B6-48C2-BE3F-A340198DC634}.tres" id="4_r3fl7"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_noarx"]
 frequency = 0.932
@@ -18,6 +20,7 @@ material = SubResource("StandardMaterial3D_r3fl7")
 size = Vector3(1000, 1, 1000)
 
 [node name="Node3D" type="Node3D"]
+script = ExtResource("1_r3fl7")
 
 [node name="Vehicle" parent="." instance=ExtResource("1_a202f")]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 100, 0)
@@ -32,6 +35,8 @@ transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 9.6
 fov = 100.0
 script = ExtResource("2_noarx")
 
+[node name="AkListener3D" type="AkListener3D" parent="Vehicle/camPivot/Camera3D"]
+
 [node name="CSGMesh3D" type="CSGMesh3D" parent="."]
 use_collision = true
 mesh = SubResource("BoxMesh_jka67")
@@ -40,3 +45,6 @@ mesh = SubResource("BoxMesh_jka67")
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 500)
 use_collision = true
 mesh = SubResource("BoxMesh_jka67")
+
+[node name="AkEvent3D" type="AkEvent3D" parent="."]
+event = ExtResource("4_r3fl7")
