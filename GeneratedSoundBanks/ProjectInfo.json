@@ -8,6 +8,20 @@
   "CacheRoot": "../GirlyTaxi_WwiseProject/.cache",
   "Platforms": [
    {
+    "Name": "Linux",
+    "GUID": "{4C1E68AD-54AA-46B9-9993-C26274B11FC3}",
+    "BasePlatform": "Linux",
+    "BasePlatformGUID": "{BD0BDF13-3125-454F-8BFD-319537169F81}",
+    "Path": "../GirlyTaxi_WwiseProject/GeneratedSoundBanks/Linux"
+   },
+   {
+    "Name": "Mac",
+    "GUID": "{B3F9CCBF-E077-46D7-AE02-2FAB527ED66F}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../GirlyTaxi_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
     "Name": "Windows",
     "GUID": "{A8E4C422-3B20-41C6-97A7-563A9380D312}",
     "BasePlatform": "Windows",
@@ -24,6 +38,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{E2252CAD-21BC-81B0-2780-4B72857D7947}"
+  "FileHash": "{B2E8C8CE-A6D5-938D-0FFA-988FA4174129}"
  }
 }

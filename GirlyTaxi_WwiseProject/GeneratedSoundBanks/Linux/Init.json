@@ -1,7 +1,7 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Windows",
-  "BasePlatform": "Windows",
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
   "SchemaVersion": "16",
   "SoundBankVersion": "154",
   "SoundBanks": [
@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{23FB66F8-58F8-3311-8452-F44E207A6BD1}",
+    "Hash": "{45428D6D-F22E-18E1-4715-47A7B6024445}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -522,6 +522,6 @@
     ]
    }
   ],
-  "FileHash": "{7480B746-BC4E-FECA-C852-8F963C27D86F}"
+  "FileHash": "{1D38F822-B59D-2C5F-2849-D0BC0AFC607E}"
  }
 }

@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Linux",
+  "BasePlatform": "Linux",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1831431028",
+    "Type": "User",
+    "GUID": "{CF9C14D0-9CFB-4BFF-826A-B3C627C47D98}",
+    "Language": "SFX",
+    "Hash": "{0589D51A-65A1-DC2A-CAE0-A1FB71DF057F}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestSoundBank",
+    "ShortName": "TestSoundBank",
+    "Path": "TestSoundBank.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "587377020",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TestFolder\\TestTone\\Tone Generator",
+       "GUID": "{20AA8AF2-4B11-4D82-B619-9D381C549BCB}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2052572755",
+      "Name": "PlayTestTone",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayTestTone",
+      "GUID": "{B6187028-92B6-48C2-BE3F-A340198DC634}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "587377020"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D2DE85CE-E809-0E18-964F-43C959039E19}"
+ }
+}
