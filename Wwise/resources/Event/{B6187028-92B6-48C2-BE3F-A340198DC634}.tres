@@ -1,0 +1,8 @@
+[gd_resource type="WwiseEvent" format=3 uid="uid://cdf3tda4au5s6"]
+
+[resource]
+is_in_user_defined_sound_bank = true
+name = "PlayTestTone"
+id = 2052572755
+guid = "{B6187028-92B6-48C2-BE3F-A340198DC634}"
+dummy = true

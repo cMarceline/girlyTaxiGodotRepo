@@ -22,7 +22,6 @@
 *.wsettings
 AkWwiseProjectData.asset
 IncrementalSoundBankData.xml
-/Wwise
 
 #Something Something macos
 .DS_Store

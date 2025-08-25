@@ -1,0 +1,5 @@
+[gd_resource type="WwisePlatformInfo" format=3 uid="uid://dn5awbnyysqls"]
+
+[resource]
+platform_name = "Windows"
+platform_path = "../GirlyTaxi_WwiseProject/GeneratedSoundBanks/Windows"
