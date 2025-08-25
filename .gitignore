@@ -1,3 +1,15 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# GITIGNORE template for Wwise Project
+
+.backup*
+.cache*
+*.akd
+*.prof
+*.validationcache
+*.wsettings
+AkWwiseProjectData.asset
+IncrementalSoundBankData.xml
+/Wwise

@@ -15,6 +15,10 @@ run/main_scene="uid://ql2wfyvxykj2"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+WwiseRuntimeManager="*res://addons/Wwise/runtime/wwise_runtime_manager.gd"
+
 [dotnet]
 
 project/assembly_name="Fcrazy"
@@ -97,3 +101,8 @@ leanR={
 "events": [Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"button_index":10,"pressure":0.0,"pressed":false,"script":null)
 ]
 }
+
+[wwise]
+
+common_user_settings/root_output_path="res://GeneratedSoundBanks"
+project_settings/windows_platform_info="res://Wwise/resources/Windows.tres"
