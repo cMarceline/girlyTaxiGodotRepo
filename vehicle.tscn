@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=3 uid="uid://disqvn0wwq0ai"]
+
+[ext_resource type="Script" uid="uid://bo7cjyl1sduif" path="res://character_body_3d.gd" id="1_andsp"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_andsp"]
+radius = 5.0
+
+[sub_resource type="FontFile" id="FontFile_noarx"]
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/100/0/ascent = 0.0
+cache/0/100/0/descent = 0.0
+cache/0/100/0/underline_position = 0.0
+cache/0/100/0/underline_thickness = 0.0
+cache/0/100/0/scale = 1.0
+cache/0/127/0/ascent = 0.0
+cache/0/127/0/descent = 0.0
+cache/0/127/0/underline_position = 0.0
+cache/0/127/0/underline_thickness = 0.0
+cache/0/127/0/scale = 1.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_noarx"]
+albedo_color = Color(1, 0, 1, 1)
+emission_enabled = true
+emission = Color(1, 0, 1, 1)
+
+[sub_resource type="TextMesh" id="TextMesh_andsp"]
+material = SubResource("StandardMaterial3D_noarx")
+text = "Car"
+font = SubResource("FontFile_noarx")
+font_size = 127
+
+[node name="Vehicle" type="RigidBody3D"]
+gravity_scale = 0.0
+script = ExtResource("1_andsp")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_andsp")
+
+[node name="collisionChecker" type="RayCast3D" parent="."]
+target_position = Vector3(0, -6, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-20, 0, -1.74846e-06, 0, 20, 0, 1.74846e-06, 0, -20, 0, 0, 0)
+mesh = SubResource("TextMesh_andsp")

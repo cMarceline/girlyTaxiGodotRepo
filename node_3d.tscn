@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=3 uid="uid://ql2wfyvxykj2"]
+
+[ext_resource type="PackedScene" uid="uid://disqvn0wwq0ai" path="res://vehicle.tscn" id="1_a202f"]
+[ext_resource type="Script" uid="uid://c3s7ehcl62vje" path="res://camera_3d.gd" id="2_noarx"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_noarx"]
+frequency = 0.932
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_a0tk4"]
+noise = SubResource("FastNoiseLite_noarx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r3fl7"]
+albedo_texture = SubResource("NoiseTexture2D_a0tk4")
+
+[sub_resource type="BoxMesh" id="BoxMesh_jka67"]
+lightmap_size_hint = Vector2i(10004, 5016)
+material = SubResource("StandardMaterial3D_r3fl7")
+size = Vector3(1000, 1, 1000)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Vehicle" parent="." instance=ExtResource("1_a202f")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 100, 0)
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+
+[node name="camPivot" type="Node3D" parent="Vehicle"]
+
+[node name="Camera3D" type="Camera3D" parent="Vehicle/camPivot"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 9.68931, -13.9481)
+fov = 100.0
+script = ExtResource("2_noarx")
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="."]
+use_collision = true
+mesh = SubResource("BoxMesh_jka67")
+
+[node name="CSGMesh3D2" type="CSGMesh3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 500)
+use_collision = true
+mesh = SubResource("BoxMesh_jka67")
