@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{3114713C-3F95-27A2-CBB9-B2D491C61776}",
+    "Hash": "{97382A01-2441-0A55-C9E0-481706A645B9}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "1355168291.bnk",
@@ -41,6 +41,14 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
       "Color": "1"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3500577229",
+      "Name": "PlayerVehicleRPM",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerVehicleRPM",
+      "GUID": "{03BBC1C1-8E88-496D-B4B8-9B7195BEED8B}"
      }
     ],
     "AcousticTextures": [
@@ -522,6 +530,6 @@
     ]
    }
   ],
-  "FileHash": "{C4EE0405-9D0C-30B8-31FD-2BD53E175DFE}"
+  "FileHash": "{D66B6959-56F1-A730-0BBC-9EC345050C90}"
  }
 }
