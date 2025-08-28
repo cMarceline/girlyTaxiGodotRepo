@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
     "Language": "SFX",
-    "Hash": "{3AC4806A-3C34-37B0-1966-103EBE2AA5E0}",
+    "Hash": "{BC3EC60E-1E71-40D4-5CB1-93B17DBEA35B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
     "ShortName": "SfxSoundBank",
     "Path": "3641780361.bnk",
@@ -34,6 +34,15 @@
        "Color": "27",
        "LibName": "Wwise Tone Generator",
        "LibId": "6684674"
+      },
+      {
+       "Id": "587377020",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TestFolder\\TestTone\\Tone Generator",
+       "GUID": "{20AA8AF2-4B11-4D82-B619-9D381C549BCB}",
+       "Color": "8",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
       }
      ]
     },
@@ -51,6 +60,22 @@
        "Custom": [
         {
          "Id": "322471312"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2052572755",
+      "Name": "PlayTestTone",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayTestTone",
+      "GUID": "{B6187028-92B6-48C2-BE3F-A340198DC634}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "587377020"
         }
        ]
       }
@@ -81,6 +106,6 @@
     ]
    }
   ],
-  "FileHash": "{4230211E-5B97-CA9C-E1C9-0D2C1257514F}"
+  "FileHash": "{C563AC44-7FFB-28E7-F628-7D879FA53A80}"
  }
 }

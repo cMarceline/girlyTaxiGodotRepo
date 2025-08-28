@@ -2,6 +2,7 @@ class_name AK
 
 class EVENTS:
 
+	const PLAYTESTTONE : int = 2052572755
 	const PLAYCENSORBEEP : int = 3641870373
 	const UI_SHOPPURCHASE : int = 2073622163
 

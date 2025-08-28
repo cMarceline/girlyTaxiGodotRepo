@@ -26,13 +26,14 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="PlayerVehicleEvents" ID="{9F5F885E-7049-4266-A356-DE73DFD7841D}" ShortID="400430924">
+				<Folder Name="Player" ID="{9F5F885E-7049-4266-A356-DE73DFD7841D}" ShortID="400430924">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="PlayerVehicleEngine" ID="{3E36A220-A329-49FC-8826-0833DF66FFB3}"/>
+						<Event Name="PlayerVehicle_Engine" ID="{3E36A220-A329-49FC-8826-0833DF66FFB3}"/>
+						<Event Name="PlayerVehicle_Brake" ID="{E5BAF926-DD66-4B91-8185-DC100E884E2A}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{8617FF71-1E81-41B0-8262-7ADE6FA3158A}" ShortID="29083876">

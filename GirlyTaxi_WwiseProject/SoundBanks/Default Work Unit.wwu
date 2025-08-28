@@ -5,7 +5,6 @@
 			<ChildrenList>
 				<SoundBank Name="TestSoundBank" ID="{CF9C14D0-9CFB-4BFF-826A-B3C627C47D98}">
 					<ObjectInclusionList>
-						<ObjectRef Name="LaunchSound" ID="{8018A974-7050-43EF-9A04-FA535F9CF73C}" WorkUnitID="{0806B860-40ED-4CB4-8CB8-E2E25D00B505}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TestTone" ID="{B0813725-DE5E-4E45-97ED-BB2F3D1EFE5E}" WorkUnitID="{0806B860-40ED-4CB4-8CB8-E2E25D00B505}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -16,6 +15,7 @@
 						<ObjectRef Name="PlayerVehicle_Brake" ID="{51C67547-A435-4328-9F44-F18B33F85AA6}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerVehicle_Engine" ID="{41AEDD1C-1E5A-4A01-9D1F-CA1AA52EC770}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Misc_CensorBeep" ID="{7EF5AD02-87A5-4B08-A02F-B654B7F7F5A4}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TestTone" ID="{B0813725-DE5E-4E45-97ED-BB2F3D1EFE5E}" WorkUnitID="{0806B860-40ED-4CB4-8CB8-E2E25D00B505}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_ShopPurchaseComplete" ID="{41C30008-575F-4F0B-BC30-A909D374F9E4}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
