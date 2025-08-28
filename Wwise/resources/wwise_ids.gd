@@ -3,6 +3,8 @@ class_name AK
 class EVENTS:
 
 	const PLAYTESTTONE : int = 2052572755
+	const PLAYCENSORBEEP : int = 3641870373
+	const UI_SHOPPURCHASE : int = 2073622163
 
 class STATES:
 	pass
@@ -11,13 +13,15 @@ class SWITCHES:
 	pass
 
 class GAME_PARAMETERS:
-	pass
+
+	const PLAYERVEHICLERPM : int = 3500577229
 
 class TRIGGERS:
 	pass
 
 class BANKS:
 
+	const SFXSOUNDBANK : int = 3641780361
 	const TESTSOUNDBANK : int = 1831431028
 
 class AUX_BUSSES:
@@ -39,4 +43,3 @@ class ACOUSTIC_TEXTURES:
 	const WOOD : int = 2058049674
 	const WOOD_BRIGHT : int = 4262522749
 	const WOOD_DEEP : int = 1755085759
-

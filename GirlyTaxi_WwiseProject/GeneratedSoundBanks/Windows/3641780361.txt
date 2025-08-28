@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2052572755	PlayTestTone			\Default Work Unit\PlayTestTone	
+	2073622163	UI_ShopPurchase			\SFX Events Work Unit\UI\UI_ShopPurchase	
+	3641870373	PlayCensorBeep			\SFX Events Work Unit\Misc\PlayCensorBeep	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3500577229	PlayerVehicleRPM			\Default Work Unit\PlayerVehicleRPM	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	322471312	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Sfx Work Unit\Misc\Misc_CensorBeep\Tone Generator	
+	587377020	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TestFolder\TestTone\Tone Generator	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	432111874	UI_ShopPurchaseComplete	F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\.cache\1E\{1E199792-8102-D9C3-5BD4-93301C1A0DC5}.wem		\Actor-Mixer Hierarchy\Sfx Work Unit\UI\UI_ShopPurchaseComplete		352896
+

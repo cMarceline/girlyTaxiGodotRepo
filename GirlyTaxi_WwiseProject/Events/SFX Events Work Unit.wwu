@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37A934DD-DB97-47D6-B0D8-68546BA36093}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="SFX Events Work Unit" ID="{37A934DD-DB97-47D6-B0D8-68546BA36093}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Misc" ID="{1B63BAF8-8C97-4C99-8F84-7C308450600D}" ShortID="387753550">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="27"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="PlayCensorBeep" ID="{D2F334AC-9776-4F0C-9E1D-BFE53F255A70}">
+							<ChildrenList>
+								<Action Name="" ID="{44CB4FEF-F0A4-4940-8E1A-356D9AB82091}" ShortID="1062000292">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Misc_CensorBeep" ID="{7EF5AD02-87A5-4B08-A02F-B654B7F7F5A4}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{9F5F885E-7049-4266-A356-DE73DFD7841D}" ShortID="400430924">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="PlayerVehicle_Engine" ID="{3E36A220-A329-49FC-8826-0833DF66FFB3}"/>
+						<Event Name="PlayerVehicle_Brake" ID="{E5BAF926-DD66-4B91-8185-DC100E884E2A}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{8617FF71-1E81-41B0-8262-7ADE6FA3158A}" ShortID="29083876">
+					<ChildrenList>
+						<Event Name="UI_ShopPurchase" ID="{276FD13C-72A6-4F85-A00A-60BC5757C49D}">
+							<ChildrenList>
+								<Action Name="" ID="{E21B8161-D66E-4E76-BE1F-9A56A85A90E7}" ShortID="524243298">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_ShopPurchaseComplete" ID="{41C30008-575F-4F0B-BC30-A909D374F9E4}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

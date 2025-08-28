@@ -36,7 +36,7 @@
 					</ValueList>
 				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjIwODc0IiBtYXNrPSJUREhMODg5NyIgZW5jPSIwIj48bGlj ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iNCwx MCwxNCIgZXhwaXJlcz0iMjAyNS0xMC0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjIxIiBu YW1lPSJNYWludGVuYW5jZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSI0LDEwLDE0IiBl eHBpcmVzPSIyMDI1LTEwLTAxIiAgLz48bGljZW5zZSBpZD0iNzAiIG5hbWU9Iklu ZGllIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iNCwxMCwxNCIgZXhwaXJl cz0iMjAyNS0xMC0wMSIgIC8+PC9wcm9qZWN0Pg==|debR7TJHSFV0pSm+jSh5P3V 2c9CG0QOEkOoCg9R802yXwA5qdyjQdSOq0wsV/rGH4uW7O9WdMxIQPvgt6ZKKCVM GXtbs1mpq6S6pIDbIbVX5h1/apXV2sFxW7FWqytTDRgRcT6iu8Ny0scHLoW6MohD u0HZmqXOd36MOc5bWMozubhbcxJOrPSYRvADM4xxrEZyePae9TTeNEXgtH4o++t5 vXLlsFddPYJugFdIP+pjZxUerOTbMciIsixEvxNINmSgPRsBenJ33/d3q8Iq08UD tv6rp4MCViMlQhI17MOfELw+/Mzy+HkUWWOkXmw3WpwwqILLNOia8H+4+PXa1tA= = "/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\GeneratedSoundBanks"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankIncludeSoundbankNamesStrings" Type="bool" Value="False"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
@@ -9993,7 +9993,12 @@
 			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}"/>
 			<PhysicalFolderList>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
-					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
+					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone">
+						<PropertyList>
+							<Property Name="Color" Type="int16" Value="8"/>
+							<Property Name="OverrideColor" Type="bool" Value="True"/>
+						</PropertyList>
+					</WorkUnit>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
 					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
@@ -10020,10 +10025,20 @@
 					<WorkUnit Name="Game Parameters" ID="{4025818E-097F-4A72-B692-B8A2E2663DCB}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Interactive Music Hierarchy">
-					<WorkUnit Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" PersistMode="Standalone"/>
+					<WorkUnit Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" PersistMode="Standalone">
+						<PropertyList>
+							<Property Name="Color" Type="int16" Value="13"/>
+							<Property Name="OverrideColor" Type="bool" Value="True"/>
+						</PropertyList>
+					</WorkUnit>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Master-Mixer Hierarchy">
-					<WorkUnit Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" PersistMode="Standalone"/>
+					<WorkUnit Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" PersistMode="Standalone">
+						<PropertyList>
+							<Property Name="Color" Type="int16" Value="2"/>
+							<Property Name="OverrideColor" Type="bool" Value="True"/>
+						</PropertyList>
+					</WorkUnit>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Metadata">
 					<WorkUnit Name="Metadata" ID="{B6F4A62E-4F9B-45A6-B280-C80685E65296}" PersistMode="Standalone"/>
