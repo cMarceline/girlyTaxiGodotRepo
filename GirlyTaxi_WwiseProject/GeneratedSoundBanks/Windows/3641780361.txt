@@ -1,3 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3641870373	PlayCensorBeep			\SFX Events Work Unit\Misc\PlayCensorBeep	
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3500577229	PlayerVehicleRPM			\Default Work Unit\PlayerVehicleRPM	
 

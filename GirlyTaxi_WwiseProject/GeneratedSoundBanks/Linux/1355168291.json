@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{82F957CA-3C02-A26B-D922-22CCA1E31082}",
+    "Hash": "{F6E0813B-0B16-0DF8-0269-FA639FDC42B3}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "1355168291.bnk",
@@ -36,11 +36,25 @@
     },
     "Busses": [
      {
+      "Id": "2873997827",
+      "Name": "VehicleTestBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus\\VehicleTestBus",
+      "GUID": "{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}",
+      "Color": "8"
+     },
+     {
       "Id": "3127962312",
       "Name": "Music Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus",
       "GUID": "{B4AF0E8B-CC25-46BD-8ED9-60A8FCA95DC8}",
       "Color": "11"
+     },
+     {
+      "Id": "3577355056",
+      "Name": "Master SFX Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus",
+      "GUID": "{C877FAF0-E2D1-4229-B7F5-3364800DC6F3}",
+      "Color": "8"
      },
      {
       "Id": "3803692087",
@@ -56,22 +70,6 @@
       "Name": "PlayerVehicleRPM",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerVehicleRPM",
       "GUID": "{03BBC1C1-8E88-496D-B4B8-9B7195BEED8B}"
-     }
-    ],
-    "StateGroups": [
-     {
-      "Id": "2012657067",
-      "Name": "New_State_Group",
-      "ObjectPath": "\\States\\Default Work Unit\\New_State_Group",
-      "GUID": "{1781FC4C-9318-4775-853B-FC2BA2A3B651}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\New_State_Group\\None",
-        "GUID": "{5C06017B-3CD6-4D51-AEAD-9906C71D29D4}"
-       }
-      ]
      }
     ],
     "AcousticTextures": [
@@ -553,6 +551,6 @@
     ]
    }
   ],
-  "FileHash": "{62D24378-62A5-D3A5-1CB0-85A750D97435}"
+  "FileHash": "{DECF5C1C-42BB-59F6-7D9F-9596B14C9BE8}"
  }
 }

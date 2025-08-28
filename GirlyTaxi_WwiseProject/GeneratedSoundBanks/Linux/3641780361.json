@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
     "Language": "SFX",
-    "Hash": "{767FA3D0-586F-6567-2842-BF8B0BA34EE6}",
+    "Hash": "{5C97D10E-EC1A-0868-00EE-93D8A0F1258B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
     "ShortName": "SfxSoundBank",
     "Path": "3641780361.bnk",
@@ -26,6 +26,24 @@
       }
      ]
     },
+    "Events": [
+     {
+      "Id": "3641870373",
+      "Name": "PlayCensorBeep",
+      "ObjectPath": "\\Events\\SFX Events Work Unit\\Misc\\PlayCensorBeep",
+      "GUID": "{D2F334AC-9776-4F0C-9E1D-BFE53F255A70}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "322471312"
+        }
+       ]
+      }
+     }
+    ],
     "GameParameters": [
      {
       "Id": "3500577229",
@@ -36,6 +54,6 @@
     ]
    }
   ],
-  "FileHash": "{9C00CB35-B91B-FA5A-88E4-046B6F657900}"
+  "FileHash": "{A6DB95ED-1A92-5161-749B-521AB4F40E5A}"
  }
 }

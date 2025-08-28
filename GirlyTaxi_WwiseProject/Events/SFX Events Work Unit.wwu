@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37A934DD-DB97-47D6-B0D8-68546BA36093}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="SFX Events Work Unit" ID="{37A934DD-DB97-47D6-B0D8-68546BA36093}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Misc" ID="{1B63BAF8-8C97-4C99-8F84-7C308450600D}" ShortID="387753550">
+					<ChildrenList>
+						<Event Name="PlayCensorBeep" ID="{D2F334AC-9776-4F0C-9E1D-BFE53F255A70}">
+							<ChildrenList>
+								<Action Name="" ID="{44CB4FEF-F0A4-4940-8E1A-356D9AB82091}" ShortID="1062000292">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CensorBeep" ID="{7EF5AD02-87A5-4B08-A02F-B654B7F7F5A4}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PlayerVehicleEvents" ID="{9F5F885E-7049-4266-A356-DE73DFD7841D}" ShortID="400430924">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="PlayerVehicleEngine" ID="{3E36A220-A329-49FC-8826-0833DF66FFB3}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

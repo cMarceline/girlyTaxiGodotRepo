@@ -25,7 +25,20 @@
 						</Reference>
 					</ReferenceList>
 				</Bus>
-				<WorkUnit Name="Master SFX Bus" ID="{B7950D2F-067D-4F83-8C98-784CA91C5CAD}" PersistMode="Reference"/>
+				<Bus Name="Master SFX Bus" ID="{C877FAF0-E2D1-4229-B7F5-3364800DC6F3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{429F3E8B-9C02-47CF-86DC-4E8E609ACA8E}" WorkUnitID="{5B64CEAF-606A-4F5C-AEC3-12DBF4BD7F7D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="VehicleTestBus" ID="{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}"/>
+					</ChildrenList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

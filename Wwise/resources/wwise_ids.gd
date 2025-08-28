@@ -4,14 +4,10 @@ class EVENTS:
 
 	const LAUNCHSOUND : int = 1085891573
 	const PLAYTESTTONE : int = 2052572755
+	const PLAYCENSORBEEP : int = 3641870373
 
 class STATES:
-
-	class NEW_STATE_GROUP:
-		const GROUP : int = 2012657067
-	
-		class STATE:
-			const NONE : int = 748895195
+	pass
 
 
 class SWITCHES:
@@ -48,4 +44,3 @@ class ACOUSTIC_TEXTURES:
 	const WOOD : int = 2058049674
 	const WOOD_BRIGHT : int = 4262522749
 	const WOOD_DEEP : int = 1755085759
-
