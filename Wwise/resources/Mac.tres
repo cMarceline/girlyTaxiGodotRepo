@@ -2,4 +2,4 @@
 
 [resource]
 platform_name = "Mac"
-platform_path = "../GirlyTaxi_WwiseProject/GeneratedSoundBanks/Mac"
+platform_path = "Mac"

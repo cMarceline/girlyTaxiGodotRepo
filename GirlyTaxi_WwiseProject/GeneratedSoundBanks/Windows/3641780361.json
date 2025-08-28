@@ -1,0 +1,41 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3641780361",
+    "Type": "User",
+    "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
+    "Language": "SFX",
+    "Hash": "{767FA3D0-586F-6567-2842-BF8B0BA34EE6}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
+    "ShortName": "SfxSoundBank",
+    "Path": "3641780361.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "322471312",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sfx Work Unit\\Misc\\CensorBeep\\Tone Generator",
+       "GUID": "{BC9D1431-D4D6-4D5A-A68D-1A529ED2A105}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      }
+     ]
+    },
+    "GameParameters": [
+     {
+      "Id": "3500577229",
+      "Name": "PlayerVehicleRPM",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerVehicleRPM",
+      "GUID": "{03BBC1C1-8E88-496D-B4B8-9B7195BEED8B}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A8055349-F50F-D103-A607-B83EB1346DC5}"
+ }
+}

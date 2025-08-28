@@ -2,22 +2,31 @@ class_name AK
 
 class EVENTS:
 
+	const LAUNCHSOUND : int = 1085891573
 	const PLAYTESTTONE : int = 2052572755
 
 class STATES:
-	pass
+
+	class NEW_STATE_GROUP:
+		const GROUP : int = 2012657067
+	
+		class STATE:
+			const NONE : int = 748895195
+
 
 class SWITCHES:
 	pass
 
 class GAME_PARAMETERS:
-	pass
+
+	const PLAYERVEHICLERPM : int = 3500577229
 
 class TRIGGERS:
 	pass
 
 class BANKS:
 
+	const SFXSOUNDBANK : int = 3641780361
 	const TESTSOUNDBANK : int = 1831431028
 
 class AUX_BUSSES:

@@ -1,0 +1,6 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3500577229	PlayerVehicleRPM			\Default Work Unit\PlayerVehicleRPM	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	322471312	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Sfx Work Unit\Misc\CensorBeep\Tone Generator	
+
