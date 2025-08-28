@@ -36,7 +36,8 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="VehicleTestBus" ID="{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}"/>
+						<Bus Name="Vehicle Test Bus" ID="{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}"/>
+						<Bus Name="Ui Audio Bus" ID="{34E8BFAB-409D-445B-B7E1-7E2E4A404E8D}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

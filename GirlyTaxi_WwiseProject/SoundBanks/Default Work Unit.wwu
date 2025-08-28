@@ -13,9 +13,10 @@
 				</SoundBank>
 				<SoundBank Name="SfxSoundBank" ID="{14776163-A349-477E-BBCD-E2C446D102D8}">
 					<ObjectInclusionList>
-						<ObjectRef Name="PlayerVehicleBrake" ID="{51C67547-A435-4328-9F44-F18B33F85AA6}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayerVehicleEngine" ID="{41AEDD1C-1E5A-4A01-9D1F-CA1AA52EC770}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="CensorBeep" ID="{7EF5AD02-87A5-4B08-A02F-B654B7F7F5A4}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerVehicle_Brake" ID="{51C67547-A435-4328-9F44-F18B33F85AA6}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerVehicle_Engine" ID="{41AEDD1C-1E5A-4A01-9D1F-CA1AA52EC770}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Misc_CensorBeep" ID="{7EF5AD02-87A5-4B08-A02F-B654B7F7F5A4}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_ShopPurchaseComplete" ID="{41C30008-575F-4F0B-BC30-A909D374F9E4}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

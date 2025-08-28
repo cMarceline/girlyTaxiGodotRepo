@@ -4,8 +4,12 @@
 		<WorkUnit Name="Sfx Work Unit" ID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Misc" ID="{E0FEA902-A7BA-47B4-98F9-25620A0E8A4C}" ShortID="886298763">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="27"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Sound Name="CensorBeep" ID="{7EF5AD02-87A5-4B08-A02F-B654B7F7F5A4}" ShortID="334847146">
+						<Sound Name="Misc_CensorBeep" ID="{7EF5AD02-87A5-4B08-A02F-B654B7F7F5A4}" ShortID="334847146">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
@@ -37,7 +41,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<BlendContainer Name="PlayerVehicleEngine" ID="{41AEDD1C-1E5A-4A01-9D1F-CA1AA52EC770}" ShortID="129038319">
+						<BlendContainer Name="PlayerVehicle_Engine" ID="{41AEDD1C-1E5A-4A01-9D1F-CA1AA52EC770}" ShortID="129038319">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -47,7 +51,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="VehicleTestBus" ID="{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+									<ObjectRef Name="Vehicle Test Bus" ID="{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
 								</Reference>
 							</ReferenceList>
 							<BlendTrackList>
@@ -167,16 +171,51 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
-						<RandomSequenceContainer Name="PlayerVehicleBrake" ID="{51C67547-A435-4328-9F44-F18B33F85AA6}" ShortID="605266950">
+						<RandomSequenceContainer Name="PlayerVehicle_Brake" ID="{51C67547-A435-4328-9F44-F18B33F85AA6}" ShortID="605266950">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="VehicleTestBus" ID="{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+									<ObjectRef Name="Vehicle Test Bus" ID="{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
 								</Reference>
 							</ReferenceList>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{8FD3D1AF-5ADF-427E-B83C-DC6CB5011EB7}" ShortID="808074522">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Sound Name="UI_ShopPurchaseComplete" ID="{41C30008-575F-4F0B-BC30-A909D374F9E4}" ShortID="497793326">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ui Audio Bus" ID="{34E8BFAB-409D-445B-B7E1-7E2E4A404E8D}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PurchaseComplete_TestV1" ID="{F06225B2-5EDD-4C61-BC20-F8D2949AB0B4}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.996960486322189"/>
+										<Property Name="FadeOutShape" Type="int16" Value="7"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>PurchaseComplete_TestV1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="432111874"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PurchaseComplete_TestV1" ID="{F06225B2-5EDD-4C61-BC20-F8D2949AB0B4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
