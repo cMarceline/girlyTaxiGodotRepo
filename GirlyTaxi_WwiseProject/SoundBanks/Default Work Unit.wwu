@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="TestSoundBank" ID="{CF9C14D0-9CFB-4BFF-826A-B3C627C47D98}">
 					<ObjectInclusionList>
-						<ObjectRef Name="PlayTestTone" ID="{B6187028-92B6-48C2-BE3F-A340198DC634}" WorkUnitID="{6E492A9F-801E-4473-A83A-4C0810164D00}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LaunchSound" ID="{8018A974-7050-43EF-9A04-FA535F9CF73C}" WorkUnitID="{0806B860-40ED-4CB4-8CB8-E2E25D00B505}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TestTone" ID="{B0813725-DE5E-4E45-97ED-BB2F3D1EFE5E}" WorkUnitID="{0806B860-40ED-4CB4-8CB8-E2E25D00B505}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
