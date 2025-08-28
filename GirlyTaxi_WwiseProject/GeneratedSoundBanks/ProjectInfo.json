@@ -22,11 +22,39 @@
     "Path": "Mac"
    },
    {
+    "Name": "PS5",
+    "GUID": "{3933373E-6F82-4FA0-BEC1-18C66E164363}",
+    "BasePlatform": "PS5",
+    "BasePlatformGUID": "{662A5E67-9D35-48DA-B6A8-B77C7F1D84E0}",
+    "Path": "PS5"
+   },
+   {
+    "Name": "Switch",
+    "GUID": "{36D64AF4-EA4B-40BF-B6E2-8D5D629692F7}",
+    "BasePlatform": "Switch",
+    "BasePlatformGUID": "{874F26D2-416D-4698-BFB6-3427CAFCFF9C}",
+    "Path": "Switch"
+   },
+   {
+    "Name": "Switch2",
+    "GUID": "{358828A4-27C8-4EF2-84B7-C92DFB61668C}",
+    "BasePlatform": "Switch2",
+    "BasePlatformGUID": "{A3DCE7A2-53E3-4347-9363-584D63B85ADF}",
+    "Path": "Switch2"
+   },
+   {
     "Name": "Windows",
     "GUID": "{A8E4C422-3B20-41C6-97A7-563A9380D312}",
     "BasePlatform": "Windows",
     "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
     "Path": "Windows"
+   },
+   {
+    "Name": "XboxSeriesX",
+    "GUID": "{E8C912A5-3FBF-484C-8188-01A479911E26}",
+    "BasePlatform": "XboxSeriesX",
+    "BasePlatformGUID": "{26352FC0-7716-4F97-8DAF-3665EC2BB501}",
+    "Path": "XboxSeriesX"
    }
   ],
   "Languages": [
@@ -38,6 +66,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{4AB34E3E-A104-545A-DB35-B11AACC97CE4}"
+  "FileHash": "{B6EAC918-C950-BA53-4702-715CEC768F94}"
  }
 }

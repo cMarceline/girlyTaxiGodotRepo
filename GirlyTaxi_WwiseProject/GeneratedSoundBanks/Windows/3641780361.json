@@ -10,18 +10,26 @@
     "Type": "User",
     "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
     "Language": "SFX",
-    "Hash": "{BC3EC60E-1E71-40D4-5CB1-93B17DBEA35B}",
+    "Hash": "{4961219F-215F-4BAB-D908-0CBD5C5202D3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
     "ShortName": "SfxSoundBank",
     "Path": "3641780361.bnk",
     "Media": [
+     {
+      "Id": "171840278",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1.wav",
+      "CachePath": "C0/{C03C4EB6-BC75-4E1C-404C-CAB7EE699C7D}.wem"
+     },
      {
       "Id": "432111874",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "PurchaseComplete_TestV1.wav",
-      "CachePath": "1E/{1E199792-8102-D9C3-5BD4-93301C1A0DC5}.wem"
+      "CachePath": "1E/{1E890C94-7E7B-8670-532F-4B9F62B4C93A}.wem"
      }
     ],
     "Plugins": {
@@ -103,9 +111,18 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerVehicleRPM",
       "GUID": "{03BBC1C1-8E88-496D-B4B8-9B7195BEED8B}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2171598841",
+      "Name": "VehicleHonkSwitches",
+      "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches",
+      "GUID": "{EBEEA186-1F8E-493A-8ADB-F784728A362C}",
+      "Switches": []
+     }
     ]
    }
   ],
-  "FileHash": "{7104A9C9-5AE5-4ECA-DAB5-186399D29809}"
+  "FileHash": "{474F43B7-27B8-B082-C14D-504791CCA7F0}"
  }
 }

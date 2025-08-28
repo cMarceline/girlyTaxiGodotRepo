@@ -1,0 +1,128 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "PS5",
+  "BasePlatform": "PS5",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3641780361",
+    "Type": "User",
+    "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
+    "Language": "SFX",
+    "Hash": "{4961219F-215F-4BAB-D908-0CBD5C5202D3}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
+    "ShortName": "SfxSoundBank",
+    "Path": "3641780361.bnk",
+    "Media": [
+     {
+      "Id": "171840278",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1.wav",
+      "CachePath": "C0/{C03C4EB6-BC75-4E1C-404C-CAB7EE699C7D}.wem"
+     },
+     {
+      "Id": "432111874",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PurchaseComplete_TestV1.wav",
+      "CachePath": "1E/{1E890C94-7E7B-8670-532F-4B9F62B4C93A}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "322471312",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sfx Work Unit\\Misc\\Misc_CensorBeep\\Tone Generator",
+       "GUID": "{BC9D1431-D4D6-4D5A-A68D-1A529ED2A105}",
+       "Color": "27",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      },
+      {
+       "Id": "587377020",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TestFolder\\TestTone\\Tone Generator",
+       "GUID": "{20AA8AF2-4B11-4D82-B619-9D381C549BCB}",
+       "Color": "8",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3641870373",
+      "Name": "PlayCensorBeep",
+      "ObjectPath": "\\Events\\SFX Events Work Unit\\Misc\\PlayCensorBeep",
+      "GUID": "{D2F334AC-9776-4F0C-9E1D-BFE53F255A70}",
+      "Color": "27",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "322471312"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2052572755",
+      "Name": "PlayTestTone",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayTestTone",
+      "GUID": "{B6187028-92B6-48C2-BE3F-A340198DC634}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "587377020"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2073622163",
+      "Name": "UI_ShopPurchase",
+      "ObjectPath": "\\Events\\SFX Events Work Unit\\UI\\UI_ShopPurchase",
+      "GUID": "{276FD13C-72A6-4F85-A00A-60BC5757C49D}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "432111874"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3500577229",
+      "Name": "PlayerVehicleRPM",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerVehicleRPM",
+      "GUID": "{03BBC1C1-8E88-496D-B4B8-9B7195BEED8B}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2171598841",
+      "Name": "VehicleHonkSwitches",
+      "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches",
+      "GUID": "{EBEEA186-1F8E-493A-8ADB-F784728A362C}",
+      "Switches": []
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CA961791-4FE2-8BEC-4F45-05A28C396CDE}"
+ }
+}

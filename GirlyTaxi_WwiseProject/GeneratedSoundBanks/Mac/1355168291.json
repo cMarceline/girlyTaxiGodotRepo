@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{6BB68163-B216-0D98-C73F-B427C489D16B}",
+    "Hash": "{1AD349B8-C23C-E95E-A572-3DEEE0BD5753}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "1355168291.bnk",
@@ -36,10 +36,10 @@
     },
     "Busses": [
      {
-      "Id": "1381424103",
-      "Name": "Vehicle Test Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus\\Vehicle Test Bus",
-      "GUID": "{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}",
+      "Id": "1692733660",
+      "Name": "Player Vehicle Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus\\Player Vehicle Bus",
+      "GUID": "{8ED4C55D-BE8C-4E45-AC31-021BB2D257F8}",
       "Color": "8"
      },
      {
@@ -77,6 +77,15 @@
       "Name": "PlayerVehicleRPM",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerVehicleRPM",
       "GUID": "{03BBC1C1-8E88-496D-B4B8-9B7195BEED8B}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2171598841",
+      "Name": "VehicleHonkSwitches",
+      "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches",
+      "GUID": "{EBEEA186-1F8E-493A-8ADB-F784728A362C}",
+      "Switches": []
      }
     ],
     "AcousticTextures": [
@@ -558,6 +567,6 @@
     ]
    }
   ],
-  "FileHash": "{A979C864-3DCB-ED42-33C4-4A238C8E7D0D}"
+  "FileHash": "{70C8A5D8-04B3-70BF-C14D-3BB351F6FDC6}"
  }
 }

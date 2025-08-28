@@ -1,4 +1,4 @@
-[gd_resource type="WwiseProjectData" load_steps=35 format=3 uid="uid://dv8aouuifc7sn"]
+[gd_resource type="WwiseProjectData" load_steps=37 format=3 uid="uid://dv8aouuifc7sn"]
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dn5s6"]
 path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Acoustic_Banner"
@@ -128,18 +128,18 @@ name = "Default Work Unit"
 id = 125608783
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_geu6g"]
+path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus\\Player Vehicle Bus"
+type = 2
+name = "Player Vehicle Bus"
+guid = "{8ED4C55D-BE8C-4E45-AC31-021BB2D257F8}"
+id = 1692733660
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_5n8hf"]
 path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus\\Ui Audio Bus"
 type = 2
 name = "Ui Audio Bus"
 guid = "{34E8BFAB-409D-445B-B7E1-7E2E4A404E8D}"
 id = 4141518855
-
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_5n8hf"]
-path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus\\Vehicle Test Bus"
-type = 2
-name = "Vehicle Test Bus"
-guid = "{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}"
-id = 1381424103
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_tnib1"]
 children = [SubResource("WwiseTreeObject_geu6g"), SubResource("WwiseTreeObject_5n8hf")]
@@ -224,9 +224,22 @@ children = [SubResource("WwiseTreeObject_5ppdk")]
 name = "Default Work Unit"
 id = 125608783
 
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_63ewg"]
+path = "\\Switches\\Default Work Unit\\VehicleHonkSwitches"
+type = 11
+name = "VehicleHonkSwitches"
+guid = "{EBEEA186-1F8E-493A-8ADB-F784728A362C}"
+id = 2171598841
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_myib7"]
+children = [SubResource("WwiseTreeObject_63ewg")]
+name = "Default Work Unit"
+id = 125608783
+
 [resource]
 acoustic_texture_root = [SubResource("WwiseTreeObject_4djpx")]
 bus_root = [SubResource("WwiseTreeObject_i5cxa")]
 bank_root = [SubResource("WwiseTreeObject_yyrou")]
 event_root = [SubResource("WwiseTreeObject_26l8v"), SubResource("WwiseTreeObject_0g3k4")]
 game_parameter_root = [SubResource("WwiseTreeObject_l65hi")]
+switch_root = [SubResource("WwiseTreeObject_myib7")]

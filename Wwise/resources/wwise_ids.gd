@@ -10,7 +10,10 @@ class STATES:
 	pass
 
 class SWITCHES:
-	pass
+
+	class VEHICLEHONKSWITCHES:
+		const GROUP : int = 2171598841
+	
 
 class GAME_PARAMETERS:
 
@@ -43,3 +46,4 @@ class ACOUSTIC_TEXTURES:
 	const WOOD : int = 2058049674
 	const WOOD_BRIGHT : int = 4262522749
 	const WOOD_DEEP : int = 1755085759
+

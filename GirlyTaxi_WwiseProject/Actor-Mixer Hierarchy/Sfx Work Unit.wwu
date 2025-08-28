@@ -51,7 +51,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Vehicle Test Bus" ID="{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+									<ObjectRef Name="Master SFX Bus" ID="{C877FAF0-E2D1-4229-B7F5-3364800DC6F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
 								</Reference>
 							</ReferenceList>
 							<BlendTrackList>
@@ -177,10 +177,42 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Vehicle Test Bus" ID="{F9E4B7DF-CD02-4125-B17C-6229DCDD4992}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+									<ObjectRef Name="Master SFX Bus" ID="{C877FAF0-E2D1-4229-B7F5-3364800DC6F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
 								</Reference>
 							</ReferenceList>
 						</RandomSequenceContainer>
+						<SwitchContainer Name="PlayerVehicle_Honk" ID="{D91675AC-A7F8-4CBF-BCAD-91E9FADCD31E}" ShortID="526697757">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="VehicleHonkSwitches" ID="{EBEEA186-1F8E-493A-8ADB-F784728A362C}" WorkUnitID="{C9BDC7CC-8DD4-4983-A5AD-6265B92CC728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="HonkOne" ID="{32641D39-3B51-43CC-8F69-F72AACFCA1AE}" ShortID="288198715">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="HonkOne" ID="{32641D39-3B51-43CC-8F69-F72AACFCA1AE}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{8FD3D1AF-5ADF-427E-B83C-DC6CB5011EB7}" ShortID="808074522">
@@ -214,6 +246,55 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="PurchaseComplete_TestV1" ID="{F06225B2-5EDD-4C61-BC20-F8D2949AB0B4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_TestNoti" ID="{4B2FBDE3-E352-4A88-B45C-A64925955984}" ShortID="426020053">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1" ID="{37438EA8-FE35-418F-AFBD-259E375AAFC0}">
+									<Language>SFX</Language>
+									<AudioFile>ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="171840278"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1" ID="{37438EA8-FE35-418F-AFBD-259E375AAFC0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_TestNotiButFunny" ID="{3C31CCA5-8ECA-421B-B7C0-2B710E962299}" ShortID="1053245449">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1" ID="{E82DB06D-210C-40FC-8EE1-6BF435974501}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0479748907373912"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.142694555709611"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="297675435"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1" ID="{E82DB06D-210C-40FC-8EE1-6BF435974501}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

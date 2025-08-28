@@ -1,0 +1,26 @@
+{
+ "PluginInfo": {
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
+  "PluginLibs": [
+   {
+    "LibName": "Wwise Tone Generator",
+    "LibId": "6684674",
+    "Type": "Source",
+    "DLL": "AkToneGen",
+    "StaticLib": "AkToneSource"
+   },
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   }
+  ],
+  "FileHash": "{4E4CFE95-0B8F-5B6C-3314-72E547A55ACF}"
+ }
+}
