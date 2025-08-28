@@ -6,6 +6,9 @@
 radius = 5.0
 
 [sub_resource type="FontFile" id="FontFile_noarx"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
 cache/0/16/0/ascent = 0.0
 cache/0/16/0/descent = 0.0
 cache/0/16/0/underline_position = 0.0
@@ -35,6 +38,8 @@ font_size = 127
 
 [node name="Vehicle" type="RigidBody3D"]
 gravity_scale = 0.0
+contact_monitor = true
+max_contacts_reported = 9
 script = ExtResource("1_andsp")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]

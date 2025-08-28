@@ -1,9 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://ql2wfyvxykj2"]
+[gd_scene load_steps=8 format=3 uid="uid://ql2wfyvxykj2"]
 
 [ext_resource type="PackedScene" uid="uid://disqvn0wwq0ai" path="res://vehicle.tscn" id="1_a202f"]
 [ext_resource type="Script" uid="uid://bf6bur0pe3euv" path="res://node_3d.gd" id="1_r3fl7"]
 [ext_resource type="Script" uid="uid://c3s7ehcl62vje" path="res://camera_3d.gd" id="2_noarx"]
-[ext_resource type="WwiseEvent" uid="uid://cdf3tda4au5s6" path="res://Wwise/resources/Event/{B6187028-92B6-48C2-BE3F-A340198DC634}.tres" id="4_r3fl7"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_noarx"]
 frequency = 0.932
@@ -23,15 +22,16 @@ size = Vector3(1000, 1, 1000)
 script = ExtResource("1_r3fl7")
 
 [node name="Vehicle" parent="." instance=ExtResource("1_a202f")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 100, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 100, 0)
 axis_lock_angular_x = true
 axis_lock_angular_y = true
 axis_lock_angular_z = true
+custom_integrator = true
 
 [node name="camPivot" type="Node3D" parent="Vehicle"]
 
 [node name="Camera3D" type="Camera3D" parent="Vehicle/camPivot"]
-transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 9.68931, -13.9481)
+transform = Transform3D(-1, 0, 8.74228e-08, 2.69121e-08, 0.951439, 0.307838, -8.31774e-08, 0.307838, -0.951439, 0, 14.9879, -17.2797)
 fov = 100.0
 script = ExtResource("2_noarx")
 
@@ -47,4 +47,3 @@ use_collision = true
 mesh = SubResource("BoxMesh_jka67")
 
 [node name="AkEvent3D" type="AkEvent3D" parent="."]
-event = ExtResource("4_r3fl7")
