@@ -24,6 +24,6 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	171840278	UI_TestNoti	Y:\Documents\GitHub\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\.cache\C0\{C03C4EB6-BC75-4E1C-404C-CAB7EE699C7D}.wem		\Actor-Mixer Hierarchy\Sfx Work Unit\UI\UI_TestNoti		95042
-	297675435	UI_TestNotiButFunny	Y:\Documents\GitHub\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\.cache\2A\{2A5ABE82-F92C-241F-7871-24CB5F8F8711}.wem		\Actor-Mixer Hierarchy\Sfx Work Unit\UI\UI_TestNotiButFunny		13794
+	297675435	UI_TestNotiButFunny	Y:\Documents\GitHub\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\.cache\48\{48763B5A-DD46-C48F-1A1E-D37F2FAE0A85}.wem		\Actor-Mixer Hierarchy\Sfx Work Unit\UI\UI_TestNotiButFunny		13794
 	432111874	UI_ShopPurchaseComplete	Y:\Documents\GitHub\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\.cache\1E\{1E890C94-7E7B-8670-532F-4B9F62B4C93A}.wem		\Actor-Mixer Hierarchy\Sfx Work Unit\UI\UI_ShopPurchaseComplete		352896
 

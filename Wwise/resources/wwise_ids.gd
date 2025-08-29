@@ -4,7 +4,10 @@ class EVENTS:
 
 	const PLAYTESTTONE : int = 2052572755
 	const PLAYCENSORBEEP : int = 3641870373
+	const PLAYERVEHICLE_BRAKE : int = 1938213870
 	const UI_SHOPPURCHASE : int = 2073622163
+	const UI_TESTNOTFI : int = 3567996390
+	const UI_THEFUNNY : int = 2185775145
 
 class STATES:
 	pass
@@ -14,6 +17,12 @@ class SWITCHES:
 	class VEHICLEHONKSWITCHES:
 		const GROUP : int = 2171598841
 	
+		class SWITCH:
+			const HONKFOUR : int = 3019189331
+			const HONKONE : int = 3445080953
+			const HONKTHREE : int = 3025531589
+			const HONKTWO : int = 3323547447
+
 
 class GAME_PARAMETERS:
 
@@ -46,4 +55,3 @@ class ACOUSTIC_TEXTURES:
 	const WOOD : int = 2058049674
 	const WOOD_BRIGHT : int = 4262522749
 	const WOOD_DEEP : int = 1755085759
-

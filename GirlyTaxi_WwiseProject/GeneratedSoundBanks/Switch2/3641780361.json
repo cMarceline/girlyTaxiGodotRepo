@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
     "Language": "SFX",
-    "Hash": "{6E2C71D4-3F5C-2596-0551-E6485CF11AC0}",
+    "Hash": "{C24F6430-A630-1932-881D-02FC4496FC1D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
     "ShortName": "SfxSoundBank",
     "Path": "3641780361.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1.wav",
-      "CachePath": "2A/{2A5ABE82-F92C-241F-7871-24CB5F8F8711}.wem"
+      "CachePath": "48/{48763B5A-DD46-C48F-1A1E-D37F2FAE0A85}.wem"
      },
      {
       "Id": "432111874",
@@ -143,8 +143,8 @@
       "GUID": "{0915AEC1-A088-460D-BF1C-9E40885F81E3}",
       "Color": "1",
       "DurationType": "OneShot",
-      "DurationMin": "0.4075839",
-      "DurationMax": "0.4075839",
+      "DurationMin": "0.2207016",
+      "DurationMax": "0.2413729",
       "MediaRefs": [
        {
         "Id": "297675435"
@@ -196,6 +196,6 @@
     ]
    }
   ],
-  "FileHash": "{A6410C2B-0F8A-FE5E-8589-454CB3E41ADC}"
+  "FileHash": "{CA3C035C-DC10-9961-BF23-CFDBCAC3A985}"
  }
 }
