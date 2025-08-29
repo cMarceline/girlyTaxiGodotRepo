@@ -1,6 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1938213870	PlayerVehicle_Brake			\SFX Events Work Unit\Player\PlayerVehicle_Brake	
 	2052572755	PlayTestTone			\Default Work Unit\PlayTestTone	
 	2073622163	UI_ShopPurchase			\SFX Events Work Unit\UI\UI_ShopPurchase	
+	2185775145	UI_TheFunny			\SFX Events Work Unit\UI\UI_TheFunny	
+	3567996390	UI_TestNotfi			\SFX Events Work Unit\UI\UI_TestNotfi	
 	3641870373	PlayCensorBeep			\SFX Events Work Unit\Misc\PlayCensorBeep	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -14,6 +17,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	587377020	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TestFolder\TestTone\Tone Generator	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	171840278	UI_TestNotiButFunny	Y:\Documents\GitHub\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\.cache\C0\{C03C4EB6-BC75-4E1C-404C-CAB7EE699C7D}.wem		\Actor-Mixer Hierarchy\Sfx Work Unit\UI\UI_TestNotiButFunny		95042
+	171840278	UI_TestNoti	Y:\Documents\GitHub\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\.cache\C0\{C03C4EB6-BC75-4E1C-404C-CAB7EE699C7D}.wem		\Actor-Mixer Hierarchy\Sfx Work Unit\UI\UI_TestNoti		95042
+	297675435	UI_TestNotiButFunny	Y:\Documents\GitHub\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\.cache\9D\{9D6E6EB6-792C-83F4-E73C-C1FF578B5511}.wem		\Actor-Mixer Hierarchy\Sfx Work Unit\UI\UI_TestNotiButFunny		13794
 	432111874	UI_ShopPurchaseComplete	Y:\Documents\GitHub\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\.cache\1E\{1E890C94-7E7B-8670-532F-4B9F62B4C93A}.wem		\Actor-Mixer Hierarchy\Sfx Work Unit\UI\UI_ShopPurchaseComplete		352896
 

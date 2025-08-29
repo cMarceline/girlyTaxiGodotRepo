@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
     "Language": "SFX",
-    "Hash": "{4961219F-215F-4BAB-D908-0CBD5C5202D3}",
+    "Hash": "{EFFB0AD0-7DCD-06CC-1A24-C50BE1875BB9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
     "ShortName": "SfxSoundBank",
     "Path": "3641780361.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1.wav",
       "CachePath": "C0/{C03C4EB6-BC75-4E1C-404C-CAB7EE699C7D}.wem"
+     },
+     {
+      "Id": "297675435",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1.wav",
+      "CachePath": "9D/{9D6E6EB6-792C-83F4-E73C-C1FF578B5511}.wem"
      },
      {
       "Id": "432111874",
@@ -73,6 +81,16 @@
       }
      },
      {
+      "Id": "1938213870",
+      "Name": "PlayerVehicle_Brake",
+      "ObjectPath": "\\Events\\SFX Events Work Unit\\Player\\PlayerVehicle_Brake",
+      "GUID": "{E5BAF926-DD66-4B91-8185-DC100E884E2A}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2052572755",
       "Name": "PlayTestTone",
       "ObjectPath": "\\Events\\Default Work Unit\\PlayTestTone",
@@ -102,6 +120,36 @@
         "Id": "432111874"
        }
       ]
+     },
+     {
+      "Id": "3567996390",
+      "Name": "UI_TestNotfi",
+      "ObjectPath": "\\Events\\SFX Events Work Unit\\UI\\UI_TestNotfi",
+      "GUID": "{7AA64C4C-28C2-46F2-B3B0-DAE65F060EED}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9890208",
+      "DurationMax": "0.9890208",
+      "MediaRefs": [
+       {
+        "Id": "171840278"
+       }
+      ]
+     },
+     {
+      "Id": "2185775145",
+      "Name": "UI_TheFunny",
+      "ObjectPath": "\\Events\\SFX Events Work Unit\\UI\\UI_TheFunny",
+      "GUID": "{0915AEC1-A088-460D-BF1C-9E40885F81E3}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "0.14269456",
+      "DurationMax": "0.14269456",
+      "MediaRefs": [
+       {
+        "Id": "297675435"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -123,6 +171,6 @@
     ]
    }
   ],
-  "FileHash": "{F6B29157-7490-805D-B8C8-5F6440543AF2}"
+  "FileHash": "{6E97D792-9184-FBEC-CC01-A4836A6BDD02}"
  }
 }
