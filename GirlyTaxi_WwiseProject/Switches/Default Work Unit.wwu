@@ -3,7 +3,14 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{C9BDC7CC-8DD4-4983-A5AD-6265B92CC728}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="VehicleHonkSwitches" ID="{EBEEA186-1F8E-493A-8ADB-F784728A362C}"/>
+				<SwitchGroup Name="VehicleHonkSwitches" ID="{EBEEA186-1F8E-493A-8ADB-F784728A362C}">
+					<ChildrenList>
+						<Switch Name="HonkOne" ID="{B25294B3-B6A4-4DB4-98CA-A2A98B9BCB17}"/>
+						<Switch Name="HonkTwo" ID="{2A0D590E-3F9B-4B18-95FB-F3EE6E7A2180}"/>
+						<Switch Name="HonkThree" ID="{D8A75FF6-A67B-4997-BB69-D6E780801FDB}"/>
+						<Switch Name="HonkFour" ID="{FC5FB508-779E-44B7-B183-A3EB2A9C2475}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

@@ -195,6 +195,52 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="HonkOne" ID="{32641D39-3B51-43CC-8F69-F72AACFCA1AE}" ShortID="288198715">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="23"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="HonkTwo" ID="{FDAE268D-5E09-4122-AD73-72F1AAE5B18B}" ShortID="547016985">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="23"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="HonkThree" ID="{86A02E38-8E7C-4C49-9CAB-AFDBC56EA195}" ShortID="466705334">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="23"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50541313-E3FD-4622-A16F-1E78C5FA0597}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="HonkFour" ID="{D20BFB18-A6ED-4BB8-8BDE-042EBE7126E3}" ShortID="820103586">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="23"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
@@ -208,9 +254,44 @@
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
+										<ItemRef Name="HonkFour" ID="{D20BFB18-A6ED-4BB8-8BDE-042EBE7126E3}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="HonkThree" ID="{86A02E38-8E7C-4C49-9CAB-AFDBC56EA195}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="HonkOne" ID="{32641D39-3B51-43CC-8F69-F72AACFCA1AE}"/>
 									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="HonkTwo" ID="{FDAE268D-5E09-4122-AD73-72F1AAE5B18B}"/>
+									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="HonkFour" ID="{FC5FB508-779E-44B7-B183-A3EB2A9C2475}"/>
+										<ItemList>
+											<ItemRef Name="HonkFour" ID="{D20BFB18-A6ED-4BB8-8BDE-042EBE7126E3}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="HonkTwo" ID="{2A0D590E-3F9B-4B18-95FB-F3EE6E7A2180}"/>
+										<ItemList>
+											<ItemRef Name="HonkTwo" ID="{FDAE268D-5E09-4122-AD73-72F1AAE5B18B}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="HonkOne" ID="{B25294B3-B6A4-4DB4-98CA-A2A98B9BCB17}"/>
+										<ItemList>
+											<ItemRef Name="HonkOne" ID="{32641D39-3B51-43CC-8F69-F72AACFCA1AE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="HonkThree" ID="{D8A75FF6-A67B-4997-BB69-D6E780801FDB}"/>
+										<ItemList>
+											<ItemRef Name="HonkThree" ID="{86A02E38-8E7C-4C49-9CAB-AFDBC56EA195}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
@@ -271,6 +352,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_TestNotiButFunny" ID="{3C31CCA5-8ECA-421B-B7C0-2B710E962299}" ShortID="1053245449">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1817</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EF86541-3AA4-4EBD-A4E1-92A1B1E1AE15}"/>
@@ -282,7 +370,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1" ID="{E82DB06D-210C-40FC-8EE1-6BF435974501}">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.0479748907373912"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0873389036501225"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimEnd" Type="Real64" Value="0.142694555709611"/>
 									</PropertyList>

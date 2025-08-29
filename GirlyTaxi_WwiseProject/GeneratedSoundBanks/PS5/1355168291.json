@@ -85,7 +85,32 @@
       "Name": "VehicleHonkSwitches",
       "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches",
       "GUID": "{EBEEA186-1F8E-493A-8ADB-F784728A362C}",
-      "Switches": []
+      "Switches": [
+       {
+        "Id": "3019189331",
+        "Name": "HonkFour",
+        "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkFour",
+        "GUID": "{FC5FB508-779E-44B7-B183-A3EB2A9C2475}"
+       },
+       {
+        "Id": "3025531589",
+        "Name": "HonkThree",
+        "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkThree",
+        "GUID": "{D8A75FF6-A67B-4997-BB69-D6E780801FDB}"
+       },
+       {
+        "Id": "3323547447",
+        "Name": "HonkTwo",
+        "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkTwo",
+        "GUID": "{2A0D590E-3F9B-4B18-95FB-F3EE6E7A2180}"
+       },
+       {
+        "Id": "3445080953",
+        "Name": "HonkOne",
+        "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkOne",
+        "GUID": "{B25294B3-B6A4-4DB4-98CA-A2A98B9BCB17}"
+       }
+      ]
      }
     ],
     "AcousticTextures": [
@@ -567,6 +592,6 @@
     ]
    }
   ],
-  "FileHash": "{2F5300C4-E7C3-33EA-4B96-EE214E5C136E}"
+  "FileHash": "{89D3F616-E2F5-A411-FA6A-4A3287492852}"
  }
 }

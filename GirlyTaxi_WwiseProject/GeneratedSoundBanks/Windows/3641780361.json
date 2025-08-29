@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
     "Language": "SFX",
-    "Hash": "{EFFB0AD0-7DCD-06CC-1A24-C50BE1875BB9}",
+    "Hash": "{6E2C71D4-3F5C-2596-0551-E6485CF11AC0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
     "ShortName": "SfxSoundBank",
     "Path": "3641780361.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "ESM_Explainer_Video_One_Shot_Positive_Notification_Alert_Texting_UI_1.wav",
-      "CachePath": "9D/{9D6E6EB6-792C-83F4-E73C-C1FF578B5511}.wem"
+      "CachePath": "2A/{2A5ABE82-F92C-241F-7871-24CB5F8F8711}.wem"
      },
      {
       "Id": "432111874",
@@ -143,8 +143,8 @@
       "GUID": "{0915AEC1-A088-460D-BF1C-9E40885F81E3}",
       "Color": "1",
       "DurationType": "OneShot",
-      "DurationMin": "0.14269456",
-      "DurationMax": "0.14269456",
+      "DurationMin": "0.4075839",
+      "DurationMax": "0.4075839",
       "MediaRefs": [
        {
         "Id": "297675435"
@@ -166,11 +166,36 @@
       "Name": "VehicleHonkSwitches",
       "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches",
       "GUID": "{EBEEA186-1F8E-493A-8ADB-F784728A362C}",
-      "Switches": []
+      "Switches": [
+       {
+        "Id": "3019189331",
+        "Name": "HonkFour",
+        "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkFour",
+        "GUID": "{FC5FB508-779E-44B7-B183-A3EB2A9C2475}"
+       },
+       {
+        "Id": "3025531589",
+        "Name": "HonkThree",
+        "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkThree",
+        "GUID": "{D8A75FF6-A67B-4997-BB69-D6E780801FDB}"
+       },
+       {
+        "Id": "3323547447",
+        "Name": "HonkTwo",
+        "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkTwo",
+        "GUID": "{2A0D590E-3F9B-4B18-95FB-F3EE6E7A2180}"
+       },
+       {
+        "Id": "3445080953",
+        "Name": "HonkOne",
+        "ObjectPath": "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkOne",
+        "GUID": "{B25294B3-B6A4-4DB4-98CA-A2A98B9BCB17}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{7BBB6652-876B-E67C-E731-AFC1C9229808}"
+  "FileHash": "{37514416-E107-B977-5CEE-95E6CEAED3B3}"
  }
 }
