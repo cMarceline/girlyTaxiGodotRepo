@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
     "Language": "SFX",
-    "Hash": "{7EBA6E6C-124E-F120-2E82-9C95A21B3E82}",
+    "Hash": "{9B21001A-7793-33C4-871F-2F499C8B1FDF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
     "ShortName": "SfxSoundBank",
     "Path": "3641780361.bnk",
@@ -38,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "PurchaseComplete_TestV1.wav",
       "CachePath": "1E/{1E890C94-7E7B-8670-532F-4B9F62B4C93A}.wem"
+     },
+     {
+      "Id": "647962915",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp_Error.wav",
+      "CachePath": "EC/{EC0FFC78-EB4F-48FD-C0BE-CDC759562F71}.wem"
      }
     ],
     "Plugins": {
@@ -196,6 +204,6 @@
     ]
    }
   ],
-  "FileHash": "{C2AA6095-8166-0ABA-4311-5514DECA0A24}"
+  "FileHash": "{F994E2DB-C5FF-655D-AF98-104BE7E55C14}"
  }
 }
