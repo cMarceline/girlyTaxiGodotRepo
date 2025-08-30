@@ -11,7 +11,6 @@
 								<Value Platform="Windows">4</Value>
 								<Value Platform="Linux">4</Value>
 								<Value Platform="Mac">4</Value>
-								<Value Platform="XboxSeriesX">4</Value>
 								<Value Platform="Switch2">4</Value>
 								<Value Platform="PS5">4</Value>
 							</ValueList>
@@ -22,7 +21,6 @@
 								<Value Platform="Windows">0</Value>
 								<Value Platform="Linux">0</Value>
 								<Value Platform="Mac">0</Value>
-								<Value Platform="XboxSeriesX">0</Value>
 								<Value Platform="Switch2">0</Value>
 								<Value Platform="PS5">0</Value>
 							</ValueList>
@@ -33,7 +31,6 @@
 								<Value Platform="Windows">48000</Value>
 								<Value Platform="Linux">48000</Value>
 								<Value Platform="Mac">48000</Value>
-								<Value Platform="XboxSeriesX">48000</Value>
 								<Value Platform="Switch2">48000</Value>
 								<Value Platform="PS5">48000</Value>
 							</ValueList>
@@ -44,7 +41,6 @@
 								<Value Platform="Windows">0</Value>
 								<Value Platform="Linux">0</Value>
 								<Value Platform="Mac">0</Value>
-								<Value Platform="XboxSeriesX">0</Value>
 								<Value Platform="Switch2">0</Value>
 								<Value Platform="PS5">0</Value>
 							</ValueList>
@@ -55,7 +51,6 @@
 								<Value Platform="Windows">0</Value>
 								<Value Platform="Linux">0</Value>
 								<Value Platform="Mac">0</Value>
-								<Value Platform="XboxSeriesX">0</Value>
 								<Value Platform="Switch2">0</Value>
 								<Value Platform="PS5">0</Value>
 							</ValueList>
@@ -73,9 +68,6 @@
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Mac">
 							<ConversionPlugin Name="" ID="{440579CE-2C8C-462B-B5D4-480646FFD147}" PluginName="PCM" CompanyID="0" PluginID="1"/>
-						</ConversionPluginInfo>
-						<ConversionPluginInfo Platform="XboxSeriesX">
-							<ConversionPlugin Name="" ID="{51F0F338-67FB-487B-9AB5-55639023FA57}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Switch2">
 							<ConversionPlugin Name="" ID="{15853FC8-19C5-4B55-9676-05EE085FB3E4}" PluginName="PCM" CompanyID="0" PluginID="1"/>

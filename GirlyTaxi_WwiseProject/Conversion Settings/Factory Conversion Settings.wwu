@@ -13,7 +13,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -24,7 +23,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -36,7 +34,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -47,7 +44,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -59,7 +55,6 @@
 										<Value Platform="Windows">3</Value>
 										<Value Platform="Linux">3</Value>
 										<Value Platform="Mac">3</Value>
-										<Value Platform="XboxSeriesX">3</Value>
 										<Value Platform="Switch2">3</Value>
 										<Value Platform="PS5">3</Value>
 									</ValueList>
@@ -78,9 +73,6 @@
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{7411FBDD-C66E-4D40-8236-B3C969965886}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{01FEEB14-B615-43E6-9DEF-0DB2D413905C}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{5B9083C4-9E61-4F20-80C7-EE0261D0EE78}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
@@ -97,7 +89,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -108,7 +99,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -120,7 +110,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -131,7 +120,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -143,7 +131,6 @@
 										<Value Platform="Windows">1</Value>
 										<Value Platform="Linux">1</Value>
 										<Value Platform="Mac">1</Value>
-										<Value Platform="XboxSeriesX">1</Value>
 										<Value Platform="Switch2">1</Value>
 										<Value Platform="PS5">1</Value>
 									</ValueList>
@@ -162,9 +149,6 @@
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{7C9DD7A1-D4FD-4830-9104-C2071292F6DD}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{56C5E83B-1CCA-4C0D-820C-8613BDC57D22}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{1FCEEC64-3D07-425B-9D8A-9F9A826B8DBA}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
@@ -181,7 +165,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -192,7 +175,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -204,7 +186,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -215,7 +196,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -227,7 +207,6 @@
 										<Value Platform="Windows">2</Value>
 										<Value Platform="Linux">2</Value>
 										<Value Platform="Mac">2</Value>
-										<Value Platform="XboxSeriesX">2</Value>
 										<Value Platform="Switch2">2</Value>
 										<Value Platform="PS5">2</Value>
 									</ValueList>
@@ -246,9 +225,6 @@
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{CCE1461C-4FC4-4DFC-946A-0F6668AE4DB3}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{FAFFC6E2-F1C4-4AD2-8427-DD805C469F6B}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{8CC18A9B-8F7F-4379-A707-EC73DE4E53F4}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
@@ -265,7 +241,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -276,7 +251,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -288,7 +262,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -299,7 +272,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -310,7 +282,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -329,9 +300,6 @@
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{5CE3025A-30D4-4888-92A8-A2561AD215B7}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{5DBBC1D5-F94E-4326-A320-1BDBED0A64A7}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{AD00E132-431E-4967-8B7D-0227683659FD}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
@@ -348,7 +316,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -359,7 +326,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -371,7 +337,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -382,7 +347,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -393,7 +357,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -428,13 +391,6 @@
 										</PropertyList>
 									</ConversionPlugin>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{3920CAF6-4136-4C8D-A0B0-B3CDE74EE52F}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-										<PropertyList>
-											<Property Name="QualityFactor" Type="Real32" Value="0"/>
-										</PropertyList>
-									</ConversionPlugin>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{B3F186C2-B0DF-4F98-8A04-5032AB2C7DA7}" PluginName="Vorbis" CompanyID="0" PluginID="4">
 										<PropertyList>
@@ -459,7 +415,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -470,7 +425,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -482,7 +436,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -493,7 +446,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -504,7 +456,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -539,13 +490,6 @@
 										</PropertyList>
 									</ConversionPlugin>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{78CFF6B4-A1E4-4658-9B75-7400EF71B22A}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-										<PropertyList>
-											<Property Name="QualityFactor" Type="Real32" Value="2"/>
-										</PropertyList>
-									</ConversionPlugin>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{CF596635-ADA7-4445-8EE0-1A37C10967BF}" PluginName="Vorbis" CompanyID="0" PluginID="4">
 										<PropertyList>
@@ -574,7 +518,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -585,7 +528,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -597,7 +539,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -608,7 +549,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -619,7 +559,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -638,9 +577,6 @@
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{D4D4F6CC-ADB7-4EA4-9B98-C7E91B22FB43}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{5807E606-9A8E-4603-BE30-30E65AAD1EB1}" PluginName="PCM" CompanyID="0" PluginID="1"/>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{431A4A39-4070-4D27-8547-140EB79DEC32}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
@@ -657,7 +593,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -668,7 +603,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -680,7 +614,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -691,7 +624,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -703,7 +635,6 @@
 										<Value Platform="Windows">1</Value>
 										<Value Platform="Linux">1</Value>
 										<Value Platform="Mac">1</Value>
-										<Value Platform="XboxSeriesX">1</Value>
 										<Value Platform="Switch2">1</Value>
 										<Value Platform="PS5">1</Value>
 									</ValueList>
@@ -722,9 +653,6 @@
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{882638DC-C120-4C17-A045-52664F46EEA7}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{A26EEAAC-7A48-4E20-99CC-F8FE7F4936D1}" PluginName="PCM" CompanyID="0" PluginID="1"/>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{FE91CB56-A5BE-4748-8163-FB242220436F}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
@@ -741,7 +669,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -752,7 +679,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -764,7 +690,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -775,7 +700,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -787,7 +711,6 @@
 										<Value Platform="Windows">2</Value>
 										<Value Platform="Linux">2</Value>
 										<Value Platform="Mac">2</Value>
-										<Value Platform="XboxSeriesX">2</Value>
 										<Value Platform="Switch2">2</Value>
 										<Value Platform="PS5">2</Value>
 									</ValueList>
@@ -806,9 +729,6 @@
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{7475412F-7CF9-44CF-9B92-643A6793EB30}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{BC144DCC-96CB-4A6B-A5DD-F637EAF690E5}" PluginName="PCM" CompanyID="0" PluginID="1"/>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{A69A8F09-9BD6-4DB4-BE31-117CE5540669}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
@@ -825,7 +745,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -836,7 +755,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -848,7 +766,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -859,7 +776,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -871,7 +787,6 @@
 										<Value Platform="Windows">3</Value>
 										<Value Platform="Linux">3</Value>
 										<Value Platform="Mac">3</Value>
-										<Value Platform="XboxSeriesX">3</Value>
 										<Value Platform="Switch2">3</Value>
 										<Value Platform="PS5">3</Value>
 									</ValueList>
@@ -889,9 +804,6 @@
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{E1C1F8F9-1FF9-4FEB-8F2E-60EFEF55D3B0}" PluginName="PCM" CompanyID="0" PluginID="1"/>
-								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{465C9FC6-A827-4285-AAE4-487AA095A38C}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{0872B658-FE5E-48C0-9DE8-19A630B91B3F}" PluginName="PCM" CompanyID="0" PluginID="1"/>
@@ -913,7 +825,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -924,7 +835,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -936,7 +846,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -947,7 +856,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -958,7 +866,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -977,9 +884,6 @@
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{8F8A20D5-2A52-4D53-A38B-1B09A958E40F}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{2659DF07-4C26-4DFA-95D7-12DF7434B662}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{F5CBD34B-292B-4B66-86D8-67CE491C25E0}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
@@ -996,7 +900,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -1007,7 +910,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -1019,7 +921,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -1030,7 +931,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -1042,7 +942,6 @@
 										<Value Platform="Windows">1</Value>
 										<Value Platform="Linux">1</Value>
 										<Value Platform="Mac">1</Value>
-										<Value Platform="XboxSeriesX">1</Value>
 										<Value Platform="Switch2">1</Value>
 										<Value Platform="PS5">1</Value>
 									</ValueList>
@@ -1061,9 +960,6 @@
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{6B58FD07-E0FE-4949-9D07-19CD3BB447E1}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{897870C2-5454-4C33-93E2-4F9246AE2401}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{AC6D532D-1253-4FEA-9FDF-5B8FAC8FAA40}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
@@ -1080,7 +976,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -1091,7 +986,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -1103,7 +997,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -1114,7 +1007,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -1126,7 +1018,6 @@
 										<Value Platform="Windows">2</Value>
 										<Value Platform="Linux">2</Value>
 										<Value Platform="Mac">2</Value>
-										<Value Platform="XboxSeriesX">2</Value>
 										<Value Platform="Switch2">2</Value>
 										<Value Platform="PS5">2</Value>
 									</ValueList>
@@ -1145,9 +1036,6 @@
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{168865EA-FE25-47A1-93FF-C8D85640320A}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{72D4D565-D300-4884-A9B4-EA08CE963297}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
-								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{61A4F3F6-5E03-4B26-8292-B4B6EBA296E2}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
@@ -1164,7 +1052,6 @@
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
 										<Value Platform="Mac">4</Value>
-										<Value Platform="XboxSeriesX">4</Value>
 										<Value Platform="Switch2">4</Value>
 										<Value Platform="PS5">4</Value>
 									</ValueList>
@@ -1175,7 +1062,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -1187,7 +1073,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -1198,7 +1083,6 @@
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
 										<Value Platform="Mac">0</Value>
-										<Value Platform="XboxSeriesX">0</Value>
 										<Value Platform="Switch2">0</Value>
 										<Value Platform="PS5">0</Value>
 									</ValueList>
@@ -1210,7 +1094,6 @@
 										<Value Platform="Windows">3</Value>
 										<Value Platform="Linux">3</Value>
 										<Value Platform="Mac">3</Value>
-										<Value Platform="XboxSeriesX">3</Value>
 										<Value Platform="Switch2">3</Value>
 										<Value Platform="PS5">3</Value>
 									</ValueList>
@@ -1228,9 +1111,6 @@
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Mac">
 									<ConversionPlugin Name="" ID="{FD4574A0-BE00-4389-A918-72820CA79479}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
-								</ConversionPluginInfo>
-								<ConversionPluginInfo Platform="XboxSeriesX">
-									<ConversionPlugin Name="" ID="{C407170D-43F8-46DA-8D0E-ED6CE0A22C91}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch2">
 									<ConversionPlugin Name="" ID="{1A7348D8-78D0-4865-846D-3C879D3DD833}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>

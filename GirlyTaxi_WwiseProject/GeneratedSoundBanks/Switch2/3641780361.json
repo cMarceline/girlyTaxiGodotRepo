@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
     "Language": "SFX",
-    "Hash": "{C24F6430-A630-1932-881D-02FC4496FC1D}",
+    "Hash": "{7EBA6E6C-124E-F120-2E82-9C95A21B3E82}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
     "ShortName": "SfxSoundBank",
     "Path": "3641780361.bnk",
@@ -196,6 +196,6 @@
     ]
    }
   ],
-  "FileHash": "{CA3C035C-DC10-9961-BF23-CFDBCAC3A985}"
+  "FileHash": "{C2AA6095-8166-0ABA-4311-5514DECA0A24}"
  }
 }

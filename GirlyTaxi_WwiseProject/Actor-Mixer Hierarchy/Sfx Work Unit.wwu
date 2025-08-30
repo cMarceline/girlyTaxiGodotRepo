@@ -22,7 +22,8 @@
 								<SourcePlugin Name="Tone Generator" ID="{BC9D1431-D4D6-4D5A-A68D-1A529ED2A105}" ShortID="322471312" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
 									<PropertyList>
 										<Property Name="FixDur" Type="Real32" Value="0.25"/>
-										<Property Name="StartFreq" Type="Real32" Value="750"/>
+										<Property Name="StartFreq" Type="Real32" Value="725"/>
+										<Property Name="StartFreqRandMax" Type="Real32" Value="25"/>
 										<Property Name="WaveGain" Type="Real32" Value="-15"/>
 										<Property Name="WaveType" Type="int32" Value="1"/>
 									</PropertyList>

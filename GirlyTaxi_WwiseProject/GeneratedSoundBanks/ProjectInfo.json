@@ -48,13 +48,6 @@
     "BasePlatform": "Windows",
     "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
     "Path": "Windows"
-   },
-   {
-    "Name": "XboxSeriesX",
-    "GUID": "{E8C912A5-3FBF-484C-8188-01A479911E26}",
-    "BasePlatform": "XboxSeriesX",
-    "BasePlatformGUID": "{26352FC0-7716-4F97-8DAF-3665EC2BB501}",
-    "Path": "XboxSeriesX"
    }
   ],
   "Languages": [
@@ -66,6 +59,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{B6EAC918-C950-BA53-4702-715CEC768F94}"
+  "FileHash": "{D31A6C83-2276-AA0F-513E-052249DE2E3A}"
  }
 }
