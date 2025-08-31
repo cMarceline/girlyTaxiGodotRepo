@@ -10,7 +10,7 @@ var mySpeed : float
 
 # State Machine for states
 enum States {DRIVING, FLYING, FALLING, FLOATING}
-var state: States
+var myState: States
 
 var collisionArray : Array[RayCast3D]
 
@@ -46,27 +46,20 @@ func _physics_process(delta: float) -> void:
 	_steerHandler(delta)
 	_stateChecker()
 	
-	# Find the collision normals that best aligns with cars rotation
-	var bestNormal : Vector3 = Vector3.ZERO
-	for n in collisionArray.size() : 
-		collisionArray[n].force_raycast_update()
-		var normal = collisionArray[n].get_collision_normal()
-		var normalDot = normal.dot(transform.basis.y)
-		if normalDot > bestNormal.dot(transform.basis.y) : 
-			bestNormal = normal
 	# Align world to bestNormal
-	if bestNormal != Vector3.ZERO : 
-		print(bestNormal)
+	var surfaceNormal = _bestNormal( transform.basis.y )
+	if collisionArray.size() > 0 :
+		myState = States.DRIVING
 	
 	# Apply Gravity when Falling
-	if state == States.FALLING :
+	if myState == States.FALLING :
 		myGrav += gs * delta * 10
 	else : 
 		myGrav = 0.2
 	myVelocity.y = -myGrav
 	
 	# Freeze in Float
-	if state == States.FLOATING :
+	if myState == States.FLOATING :
 		linear_velocity = Vector3.ZERO
 		return
 		
@@ -75,14 +68,14 @@ func _physics_process(delta: float) -> void:
 		myVelocity = Vector3.ZERO
 
 	# Acceleration when Not Floating
-	if Input.is_action_pressed("Accelerate") && state != States.FLOATING:
+	if Input.is_action_pressed("Accelerate") && myState != States.FLOATING:
 		myVelocity += Vector3(0,0,100 * delta)
 		
 	# Applying Friction
-	elif state == States.DRIVING :
+	elif myState == States.DRIVING :
 		myVelocity.z -= delta / 2 * myVelocity.z
 		
-	var goalVelocity : Vector3 = (
+	goalVelocity = (
 		transform.basis.x * myVelocity.x +
 		transform.basis.y * myVelocity.y + 
 		transform.basis.z * myVelocity.z
@@ -91,6 +84,35 @@ func _physics_process(delta: float) -> void:
 	linear_velocity = goalVelocity #linear_velocity.lerp(goalVelocity,delta)
 	# Lerp into the forward velocity
 	# Get the normal vector of a collision
+
+# Finds the normal most aligned with the car by checking the collisionArray
+func _bestNormal( inVector : Vector3 ) : 
+	var bestNormal : Vector3 = Vector3.ZERO
+	for n in collisionArray.size() : 
+		collisionArray[n].force_raycast_update()
+		var normal = collisionArray[n].get_collision_normal()
+		var normalDot = normal.dot(inVector)
+		var bestNormDot = bestNormal.dot(inVector)
+		if normalDot >  bestNormDot : 
+			bestNormal = normal
+	return bestNormal
+
+func _lockOn( inputVector : Vector3 ) : 
+	# Ensure bestNormal is normalized
+	inputVector = inputVector.normalized()
+	# Choose a forward direction (your cart’s current forward, usually -Z)
+	var forward = -global_transform.basis.z
+	# Make forward orthogonal to the new up vector
+	forward = (forward - inputVector * (forward.dot(inputVector))).normalized()
+	# Compute the right vector with cross product
+	var right = forward.cross(inputVector).normalized()
+	# Build the new basis
+	var new_basis = Basis()
+	new_basis.x = right
+	new_basis.y = inputVector
+	new_basis.z = -forward
+	# Apply to rigid body (snaps instantly)
+	global_transform.basis = new_basis
 
 func _newRaycast( pos : Vector3 ) :
 	var newRaycast = RayCast3D.new()
@@ -102,12 +124,12 @@ func _newRaycast( pos : Vector3 ) :
 func _steerHandler(delta) : 
 	# Stick Steering
 	transform = transform.rotated_local(Vector3(0,1,0),steer * delta)
-	if state == States.FLOATING :
+	if myState == States.FLOATING :
 		transform = transform.rotated_local(Vector3(1,0,0),steerU * delta)
 		transform = transform.rotated_local(Vector3(0,0,1),lean * delta)
 
 func _stateChecker():
-	if Input.is_action_pressed("Free"): state = States.FLOATING
-	elif $collisionChecker.is_colliding() : state = States.DRIVING
-	elif Input.is_action_pressed("Boost"): state = States.FLYING
-	else : state=States.FALLING
+	if Input.is_action_pressed("Free"): myState = States.FLOATING
+	elif $collisionChecker.is_colliding() : myState = States.DRIVING
+	elif Input.is_action_pressed("Boost"): myState = States.FLYING
+	else : myState = States.FALLING
