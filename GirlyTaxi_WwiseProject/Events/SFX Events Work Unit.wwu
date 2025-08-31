@@ -33,7 +33,17 @@
 					</PropertyList>
 					<ChildrenList>
 						<Event Name="PlayerVehicle_Engine" ID="{3E36A220-A329-49FC-8826-0833DF66FFB3}"/>
-						<Event Name="PlayerVehicle_Brake" ID="{E5BAF926-DD66-4B91-8185-DC100E884E2A}"/>
+						<Event Name="PlayerVehicle_Brake" ID="{E5BAF926-DD66-4B91-8185-DC100E884E2A}">
+							<ChildrenList>
+								<Action Name="" ID="{90030D84-1E70-4A48-B241-37C8F8BEACBB}" ShortID="302513435">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerVehicle_Brake" ID="{51C67547-A435-4328-9F44-F18B33F85AA6}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{8617FF71-1E81-41B0-8262-7ADE6FA3158A}" ShortID="29083876">
@@ -44,6 +54,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_ShopPurchaseComplete" ID="{41C30008-575F-4F0B-BC30-A909D374F9E4}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_TestNotfi" ID="{7AA64C4C-28C2-46F2-B3B0-DAE65F060EED}">
+							<ChildrenList>
+								<Action Name="" ID="{004DC8E4-841B-4365-A9C5-D80D6B1D2402}" ShortID="805856252">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_TestNoti" ID="{4B2FBDE3-E352-4A88-B45C-A64925955984}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_TheFunny" ID="{0915AEC1-A088-460D-BF1C-9E40885F81E3}">
+							<ChildrenList>
+								<Action Name="" ID="{0005A024-7F87-425D-B91C-FFA696647DD8}" ShortID="915878810">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_TestNotiButFunny" ID="{3C31CCA5-8ECA-421B-B7C0-2B710E962299}" WorkUnitID="{40399A80-137E-4EC1-BEA2-2CF8CE102ED1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

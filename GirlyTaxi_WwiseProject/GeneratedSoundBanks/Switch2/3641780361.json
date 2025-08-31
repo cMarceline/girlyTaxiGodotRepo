@@ -1,7 +1,7 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Linux",
-  "BasePlatform": "Linux",
+  "Platform": "Switch2",
+  "BasePlatform": "Switch2",
   "SchemaVersion": "16",
   "SoundBankVersion": "154",
   "SoundBanks": [
@@ -204,6 +204,6 @@
     ]
    }
   ],
-  "FileHash": "{2F4218C2-7BBA-37F7-5DBD-C87D2C1349A3}"
+  "FileHash": "{F994E2DB-C5FF-655D-AF98-104BE7E55C14}"
  }
 }

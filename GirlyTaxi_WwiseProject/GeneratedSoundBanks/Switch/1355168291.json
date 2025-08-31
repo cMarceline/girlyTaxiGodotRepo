@@ -1,7 +1,7 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Windows",
-  "BasePlatform": "Windows",
+  "Platform": "Switch",
+  "BasePlatform": "Switch",
   "SchemaVersion": "16",
   "SoundBankVersion": "154",
   "SoundBanks": [
@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{7CF64A50-73D2-3938-6C88-1E7604A31CA3}",
+    "Hash": "{CD1F6D34-315B-0EEE-142B-03C8C80A6D2F}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "1355168291.bnk",
@@ -592,6 +592,6 @@
     ]
    }
   ],
-  "FileHash": "{4E2DC662-E85C-3392-2A14-03EBB3EDC0BF}"
+  "FileHash": "{1987E5EC-4500-3394-90A1-B009873AD027}"
  }
 }

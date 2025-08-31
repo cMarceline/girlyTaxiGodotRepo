@@ -1,7 +1,7 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Linux",
-  "BasePlatform": "Linux",
+  "Platform": "PS5",
+  "BasePlatform": "PS5",
   "SchemaVersion": "16",
   "SoundBankVersion": "154",
   "SoundBanks": [
@@ -204,6 +204,6 @@
     ]
    }
   ],
-  "FileHash": "{2F4218C2-7BBA-37F7-5DBD-C87D2C1349A3}"
+  "FileHash": "{7C628794-E913-6CDD-D388-2581F33EB57F}"
  }
 }

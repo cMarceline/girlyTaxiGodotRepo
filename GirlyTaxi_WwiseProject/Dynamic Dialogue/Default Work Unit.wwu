@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{57FCDF23-C7AE-42F5-877D-82E7A01A95A0}" SchemaVersion="123">
 	<DynamicDialogue>
-		<WorkUnit Name="Default Work Unit" ID="{57FCDF23-C7AE-42F5-877D-82E7A01A95A0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{57FCDF23-C7AE-42F5-877D-82E7A01A95A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<DialogueEvent Name="Test_DialogueEvent" ID="{70673BBE-444C-4D8C-81A5-DBB210E527FC}">
+					<ObjectLists>
+						<ObjectList Name="Entries">
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{8B399D29-E25B-48BA-B08C-3FF91A2838F5}"/>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</DialogueEvent>
+			</ChildrenList>
+		</WorkUnit>
 	</DynamicDialogue>
 </WwiseDocument>
