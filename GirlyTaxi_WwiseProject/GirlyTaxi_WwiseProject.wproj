@@ -5,6 +5,7 @@
 			<Platforms>
 				<Platform Name="Linux" ReferencePlatform="Linux" ID="{4C1E68AD-54AA-46B9-9993-C26274B11FC3}"/>
 				<Platform Name="Mac" ReferencePlatform="Mac" ID="{B3F9CCBF-E077-46D7-AE02-2FAB527ED66F}"/>
+				<Platform Name="PS4" ReferencePlatform="PS4" ID="{D69D669B-F1CD-4088-80D0-AD5FB26A71AA}"/>
 				<Platform Name="PS5" ReferencePlatform="PS5" ID="{3933373E-6F82-4FA0-BEC1-18C66E164363}"/>
 				<Platform Name="Switch" ReferencePlatform="Switch" ID="{36D64AF4-EA4B-40BF-B6E2-8D5D629692F7}"/>
 				<Platform Name="Switch2" ReferencePlatform="Switch2" ID="{358828A4-27C8-4EF2-84B7-C92DFB61668C}"/>
@@ -19,6 +20,7 @@
 			<PropertyList>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
+						<Value Platform="PS4"></Value>
 						<Value Platform="Switch"></Value>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Linux"></Value>
@@ -29,6 +31,7 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
+						<Value Platform="PS4">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\PS4</Value>
 						<Value Platform="Switch">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Switch</Value>
 						<Value Platform="Windows">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Windows</Value>
 						<Value Platform="Linux">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Linux\</Value>
@@ -39,6 +42,7 @@
 				</Property>
 				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
 					<ValueList>
+						<Value Platform="PS4">256</Value>
 						<Value Platform="Switch">256</Value>
 						<Value Platform="Windows">256</Value>
 						<Value Platform="Linux">256</Value>
@@ -52,6 +56,7 @@
 				<Property Name="SoundBankIncludeSoundbankNamesStrings" Type="bool" Value="False"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
+						<Value Platform="PS4">GeneratedSoundBanks\PS4\</Value>
 						<Value Platform="Switch">GeneratedSoundBanks\Switch\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Linux">GeneratedSoundBanks\Linux\</Value>
@@ -62,6 +67,7 @@
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value Platform="PS4"></Value>
 						<Value Platform="Switch"></Value>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Linux"></Value>
@@ -72,6 +78,7 @@
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value Platform="PS4"></Value>
 						<Value Platform="Switch"></Value>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Linux"></Value>
@@ -82,6 +89,7 @@
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value Platform="PS4"></Value>
 						<Value Platform="Switch"></Value>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Linux"></Value>
@@ -92,6 +100,7 @@
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value Platform="PS4"></Value>
 						<Value Platform="Switch"></Value>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Linux"></Value>
@@ -102,6 +111,7 @@
 				</Property>
 				<Property Name="VolumeThreshold" Type="Real64">
 					<ValueList>
+						<Value Platform="PS4">-80</Value>
 						<Value Platform="Switch">-80</Value>
 						<Value Platform="Windows">-80</Value>
 						<Value Platform="Linux">-80</Value>

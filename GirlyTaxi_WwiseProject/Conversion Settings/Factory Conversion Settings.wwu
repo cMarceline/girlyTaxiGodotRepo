@@ -9,6 +9,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -19,6 +20,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -30,6 +32,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -40,6 +43,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -51,6 +55,7 @@
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>3</Value>
+										<Value Platform="PS4">3</Value>
 										<Value Platform="Switch">3</Value>
 										<Value Platform="Windows">3</Value>
 										<Value Platform="Linux">3</Value>
@@ -61,6 +66,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{ACE30D11-539B-4A60-85D8-3ED6D182AF0B}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{E622E696-3CDC-44EA-9C75-5BCD796334C0}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
@@ -85,6 +93,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -95,6 +104,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -106,6 +116,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -116,6 +127,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -127,6 +139,7 @@
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>1</Value>
+										<Value Platform="PS4">1</Value>
 										<Value Platform="Switch">1</Value>
 										<Value Platform="Windows">1</Value>
 										<Value Platform="Linux">1</Value>
@@ -137,6 +150,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{104570C1-4DD1-4318-A093-F1874D4D3D26}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{2403AE33-1550-423F-AF5C-C1B00163D209}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
@@ -161,6 +177,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -171,6 +188,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -182,6 +200,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -192,6 +211,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -203,6 +223,7 @@
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>2</Value>
+										<Value Platform="PS4">2</Value>
 										<Value Platform="Switch">2</Value>
 										<Value Platform="Windows">2</Value>
 										<Value Platform="Linux">2</Value>
@@ -213,6 +234,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{E494BDEC-46BA-4B06-BF81-FF3663FEB427}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{876D63D6-2353-4220-91B3-307B0F0963B1}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
@@ -237,6 +261,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -247,6 +272,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -258,6 +284,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -268,6 +295,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -278,6 +306,7 @@
 								</Property>
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -288,6 +317,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{2CC392C1-5C4A-4CD6-9F2E-901CF7ACD474}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{1A85AFB9-763D-4F62-B23B-C63C283B558F}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
 								</ConversionPluginInfo>
@@ -312,6 +344,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -322,6 +355,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -333,6 +367,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -343,6 +378,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -353,6 +389,7 @@
 								</Property>
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -363,6 +400,13 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{292A5AE4-C232-41AF-83A5-A1519C10B785}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+										<PropertyList>
+											<Property Name="QualityFactor" Type="Real32" Value="0"/>
+										</PropertyList>
+									</ConversionPlugin>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{8F4C3D18-CACC-46D4-A86F-41838C69EF5B}" PluginName="Vorbis" CompanyID="0" PluginID="4">
 										<PropertyList>
@@ -411,6 +455,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -421,6 +466,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -432,6 +478,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -442,6 +489,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -452,6 +500,7 @@
 								</Property>
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -462,6 +511,13 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{A4E152A1-27A5-4995-8CF7-210ECF9861A4}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+										<PropertyList>
+											<Property Name="QualityFactor" Type="Real32" Value="2"/>
+										</PropertyList>
+									</ConversionPlugin>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{2F5C3B6C-540D-4663-849C-BD107CB901F2}" PluginName="Vorbis" CompanyID="0" PluginID="4">
 										<PropertyList>
@@ -514,6 +570,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -524,6 +581,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -535,6 +593,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -545,6 +604,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -555,6 +615,7 @@
 								</Property>
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -565,6 +626,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{B4560970-EF4A-402B-ACFF-AAB36CB5D30B}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{AA5CB407-14BB-44F1-80DB-717C6DE10C6A}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
@@ -589,6 +653,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -599,6 +664,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -610,6 +676,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -620,6 +687,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -631,6 +699,7 @@
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>1</Value>
+										<Value Platform="PS4">1</Value>
 										<Value Platform="Switch">1</Value>
 										<Value Platform="Windows">1</Value>
 										<Value Platform="Linux">1</Value>
@@ -641,6 +710,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{4331F295-154C-4A11-9D86-9D7B32D63866}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{37104B4F-97B3-4CAC-AC72-ECEC43FA15D8}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
@@ -665,6 +737,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -675,6 +748,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -686,6 +760,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -696,6 +771,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -707,6 +783,7 @@
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>2</Value>
+										<Value Platform="PS4">2</Value>
 										<Value Platform="Switch">2</Value>
 										<Value Platform="Windows">2</Value>
 										<Value Platform="Linux">2</Value>
@@ -717,6 +794,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{EE165DB2-3C72-4AA6-9168-5F725E75B336}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{29F6778D-AB99-4AC6-8DB0-638F163F04D9}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
@@ -741,6 +821,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -751,6 +832,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -762,6 +844,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -772,6 +855,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -783,6 +867,7 @@
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>3</Value>
+										<Value Platform="PS4">3</Value>
 										<Value Platform="Switch">3</Value>
 										<Value Platform="Windows">3</Value>
 										<Value Platform="Linux">3</Value>
@@ -793,6 +878,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{66FC0755-BB9F-42A5-84CF-F5FCE19E4451}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{ED225511-52DD-44B6-BFC8-E1A62F2E00A4}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 								</ConversionPluginInfo>
@@ -821,6 +909,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -831,6 +920,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -842,6 +932,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -852,6 +943,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -862,6 +954,7 @@
 								</Property>
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -872,6 +965,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{7CECC7F4-D934-4357-B5EF-010F54EAFE1E}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{EDF73F6A-76A2-45C4-AD8D-74AD2BC23191}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
@@ -896,6 +992,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -906,6 +1003,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -917,6 +1015,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -927,6 +1026,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -938,6 +1038,7 @@
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>1</Value>
+										<Value Platform="PS4">1</Value>
 										<Value Platform="Switch">1</Value>
 										<Value Platform="Windows">1</Value>
 										<Value Platform="Linux">1</Value>
@@ -948,6 +1049,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{E30B279D-C03E-454A-84A7-B3BCC0370E8B}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{0EF11E1A-DB56-43E1-B1B2-F530CE3EA5E8}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
@@ -972,6 +1076,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -982,6 +1087,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -993,6 +1099,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -1003,6 +1110,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -1014,6 +1122,7 @@
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>2</Value>
+										<Value Platform="PS4">2</Value>
 										<Value Platform="Switch">2</Value>
 										<Value Platform="Windows">2</Value>
 										<Value Platform="Linux">2</Value>
@@ -1024,6 +1133,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{52101DB4-4883-4394-838D-987B16FC5F7E}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{9455BE44-3B0F-459A-BB33-234CF3C4F9A7}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
@@ -1048,6 +1160,7 @@
 							<PropertyList>
 								<Property Name="Channels" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">4</Value>
 										<Value Platform="Switch">4</Value>
 										<Value Platform="Windows">4</Value>
 										<Value Platform="Linux">4</Value>
@@ -1058,6 +1171,7 @@
 								</Property>
 								<Property Name="LRMix" Type="Real64">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -1069,6 +1183,7 @@
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
 										<Value>0</Value>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -1079,6 +1194,7 @@
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
+										<Value Platform="PS4">0</Value>
 										<Value Platform="Switch">0</Value>
 										<Value Platform="Windows">0</Value>
 										<Value Platform="Linux">0</Value>
@@ -1090,6 +1206,7 @@
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>3</Value>
+										<Value Platform="PS4">3</Value>
 										<Value Platform="Switch">3</Value>
 										<Value Platform="Windows">3</Value>
 										<Value Platform="Linux">3</Value>
@@ -1100,6 +1217,9 @@
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
+								<ConversionPluginInfo Platform="PS4">
+									<ConversionPlugin Name="" ID="{15D18D69-AEE9-46BB-9736-790DC2430907}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
+								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Switch">
 									<ConversionPlugin Name="" ID="{C453564C-2EC7-4DBB-B219-E8EF6A5FB6F0}" PluginName="ADPCM" CompanyID="0" PluginID="2"/>
 								</ConversionPluginInfo>
