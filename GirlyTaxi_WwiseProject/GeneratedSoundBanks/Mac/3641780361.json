@@ -9,8 +9,9 @@
     "Id": "3641780361",
     "Type": "User",
     "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
+    "Color": "9",
     "Language": "SFX",
-    "Hash": "{9B21001A-7793-33C4-871F-2F499C8B1FDF}",
+    "Hash": "{EDF0E259-F89B-1875-B379-994A773E2137}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
     "ShortName": "SfxSoundBank",
     "Path": "3641780361.bnk",
@@ -45,7 +46,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Temp_Error.wav",
-      "CachePath": "EC/{EC0FFC78-EB4F-48FD-C0BE-CDC759562F71}.wem"
+      "CachePath": "BA/{BAC08413-65A6-73B6-242D-731B638CA33A}.wem"
      }
     ],
     "Plugins": {
@@ -71,6 +72,39 @@
      ]
     },
     "Events": [
+     {
+      "Id": "1352907638",
+      "Name": "DiaTestEventFuck",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue Events Work Unit\\DiaTestEventFuck",
+      "GUID": "{6C8F699F-FB34-4601-B7CC-ECB98650AC4C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "587377020"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "353884890",
+      "Name": "Music_TestMusic",
+      "ObjectPath": "\\Events\\Music Events Work Unit\\Music_TestMusic",
+      "GUID": "{7397E692-72BE-4A8F-AF84-9FAC81FE56C9}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "587377020"
+        }
+       ]
+      }
+     },
      {
       "Id": "3641870373",
       "Name": "PlayCensorBeep",
@@ -204,6 +238,6 @@
     ]
    }
   ],
-  "FileHash": "{170090CE-124B-49FC-DD3C-176640FB46E3}"
+  "FileHash": "{24A36E67-CF98-5613-C4B5-F5C51161AE8D}"
  }
 }

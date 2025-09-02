@@ -14,6 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="Dialogue Events Work Unit" ID="{9B8F87BC-96ED-4402-9A3D-880658598C0C}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

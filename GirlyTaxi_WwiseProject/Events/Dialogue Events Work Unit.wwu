@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B8F87BC-96ED-4402-9A3D-880658598C0C}" SchemaVersion="123" RootDocumentID="{6E492A9F-801E-4473-A83A-4C0810164D00}" ParentDocumentID="{6E492A9F-801E-4473-A83A-4C0810164D00}">
+	<Events>
+		<WorkUnit Name="Dialogue Events Work Unit" ID="{9B8F87BC-96ED-4402-9A3D-880658598C0C}" OwnerID="{6E492A9F-801E-4473-A83A-4C0810164D00}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="DiaTestEventFuck" ID="{6C8F699F-FB34-4601-B7CC-ECB98650AC4C}">
+					<ChildrenList>
+						<Action Name="" ID="{565FBB6F-1DDF-4935-A073-66ADA6AB7AD2}" ShortID="348032120">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestTone" ID="{B0813725-DE5E-4E45-97ED-BB2F3D1EFE5E}" WorkUnitID="{0806B860-40ED-4CB4-8CB8-E2E25D00B505}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

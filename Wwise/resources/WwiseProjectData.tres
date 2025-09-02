@@ -1,4 +1,4 @@
-[gd_resource type="WwiseProjectData" load_steps=45 format=3 uid="uid://dv8aouuifc7sn"]
+[gd_resource type="WwiseProjectData" load_steps=51 format=3 uid="uid://dv8aouuifc7sn"]
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dn5s6"]
 path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Acoustic_Banner"
@@ -109,63 +109,94 @@ name = "Factory Acoustic Textures"
 id = 2954047558
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_mqnyt"]
+path = "\\SoundBanks\\Default Work Unit\\DialogueSoundBank"
+type = 7
+name = "DialogueSoundBank"
+guid = "{8BC6890E-0526-4E81-9725-854D5399D832}"
+id = 2237187046
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_v560u"]
+path = "\\SoundBanks\\Default Work Unit\\MusicSoundBank"
+type = 7
+name = "MusicSoundBank"
+guid = "{AE16FE49-68C7-4137-80E7-5E7B17AE016B}"
+id = 3427827313
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_yyrou"]
 path = "\\SoundBanks\\Default Work Unit\\SfxSoundBank"
 type = 7
 name = "SfxSoundBank"
 guid = "{14776163-A349-477E-BBCD-E2C446D102D8}"
 id = 3641780361
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_v560u"]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_geu6g"]
 path = "\\SoundBanks\\Default Work Unit\\TestSoundBank"
 type = 7
 name = "TestSoundBank"
 guid = "{CF9C14D0-9CFB-4BFF-826A-B3C627C47D98}"
 id = 1831431028
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_yyrou"]
-children = [SubResource("WwiseTreeObject_mqnyt"), SubResource("WwiseTreeObject_v560u")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_5n8hf"]
+children = [SubResource("WwiseTreeObject_mqnyt"), SubResource("WwiseTreeObject_v560u"), SubResource("WwiseTreeObject_yyrou"), SubResource("WwiseTreeObject_geu6g")]
 name = "Default Work Unit"
 id = 125608783
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_geu6g"]
-path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus\\Player Vehicle Bus"
-type = 2
-name = "Player Vehicle Bus"
-guid = "{8ED4C55D-BE8C-4E45-AC31-021BB2D257F8}"
-id = 1692733660
-
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_5n8hf"]
-path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus\\Ui Audio Bus"
-type = 2
-name = "Ui Audio Bus"
-guid = "{34E8BFAB-409D-445B-B7E1-7E2E4A404E8D}"
-id = 4141518855
-
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_tnib1"]
-children = [SubResource("WwiseTreeObject_geu6g"), SubResource("WwiseTreeObject_5n8hf")]
-name = "Master SFX Bus"
-id = 3577355056
-
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_o7sea"]
 path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus"
 type = 2
 name = "Master Audio Bus"
 guid = "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
 id = 3803692087
 
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_o7sea"]
+path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus\\Player Vehicle Bus"
+type = 2
+name = "Player Vehicle Bus"
+guid = "{8ED4C55D-BE8C-4E45-AC31-021BB2D257F8}"
+id = 1692733660
+
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_lrto0"]
+path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus\\Ui Audio Bus"
+type = 2
+name = "Ui Audio Bus"
+guid = "{34E8BFAB-409D-445B-B7E1-7E2E4A404E8D}"
+id = 4141518855
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_i5cxa"]
+path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Master SFX Bus"
+children = [SubResource("WwiseTreeObject_o7sea"), SubResource("WwiseTreeObject_lrto0")]
+type = 2
+name = "Master SFX Bus"
+guid = "{C877FAF0-E2D1-4229-B7F5-3364800DC6F3}"
+id = 3577355056
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_ptp8y"]
 path = "\\Master-Mixer Hierarchy\\Default Work Unit\\Music Bus"
 type = 2
 name = "Music Bus"
 guid = "{B4AF0E8B-CC25-46BD-8ED9-60A8FCA95DC8}"
 id = 3127962312
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_i5cxa"]
-children = [SubResource("WwiseTreeObject_tnib1"), SubResource("WwiseTreeObject_o7sea"), SubResource("WwiseTreeObject_lrto0")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_26l8v"]
+children = [SubResource("WwiseTreeObject_tnib1"), SubResource("WwiseTreeObject_i5cxa"), SubResource("WwiseTreeObject_ptp8y")]
 name = "Default Work Unit"
 id = 125608783
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_ptp8y"]
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_hir8t"]
+max_duration = 0.25
+min_duration = 0.25
+path = "\\Events\\Default Work Unit\\Dialogue Events Work Unit\\DiaTestEventFuck"
+type = 3
+name = "DiaTestEventFuck"
+guid = "{6C8F699F-FB34-4601-B7CC-ECB98650AC4C}"
+id = 1352907638
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_viedb"]
+children = [SubResource("WwiseTreeObjectEvent_hir8t")]
+name = "Dialogue Events Work Unit"
+id = 169781529
+
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_bq6kk"]
 max_duration = 0.25
 min_duration = 0.25
 path = "\\Events\\Default Work Unit\\PlayTestTone"
@@ -174,12 +205,26 @@ name = "PlayTestTone"
 guid = "{B6187028-92B6-48C2-BE3F-A340198DC634}"
 id = 2052572755
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_26l8v"]
-children = [SubResource("WwiseTreeObjectEvent_ptp8y")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_hssb3"]
+children = [SubResource("WwiseTreeObject_viedb"), SubResource("WwiseTreeObjectEvent_bq6kk")]
 name = "Default Work Unit"
 id = 125608783
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_hir8t"]
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_0g3k4"]
+max_duration = 0.25
+min_duration = 0.25
+path = "\\Events\\Music Events Work Unit\\Music_TestMusic"
+type = 3
+name = "Music_TestMusic"
+guid = "{7397E692-72BE-4A8F-AF84-9FAC81FE56C9}"
+id = 353884890
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_5ppdk"]
+children = [SubResource("WwiseTreeObjectEvent_0g3k4")]
+name = "Music Events Work Unit"
+id = 3399371046
+
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_l65hi"]
 max_duration = 0.25
 min_duration = 0.25
 path = "\\Events\\SFX Events Work Unit\\Misc\\PlayCensorBeep"
@@ -188,12 +233,12 @@ name = "PlayCensorBeep"
 guid = "{D2F334AC-9776-4F0C-9E1D-BFE53F255A70}"
 id = 3641870373
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_viedb"]
-children = [SubResource("WwiseTreeObjectEvent_hir8t")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_63ewg"]
+children = [SubResource("WwiseTreeObjectEvent_l65hi")]
 name = "Misc"
 id = 3062523257
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_bq6kk"]
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_myib7"]
 max_duration = 0.0
 min_duration = 0.0
 path = "\\Events\\SFX Events Work Unit\\Player\\PlayerVehicle_Brake"
@@ -202,12 +247,12 @@ name = "PlayerVehicle_Brake"
 guid = "{E5BAF926-DD66-4B91-8185-DC100E884E2A}"
 id = 1938213870
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_hssb3"]
-children = [SubResource("WwiseTreeObjectEvent_bq6kk")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_gv40o"]
+children = [SubResource("WwiseTreeObjectEvent_myib7")]
 name = "Player"
 id = 1069431850
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_0g3k4"]
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_0hqp2"]
 max_duration = 2.0
 min_duration = 2.0
 path = "\\Events\\SFX Events Work Unit\\UI\\UI_ShopPurchase"
@@ -216,7 +261,7 @@ name = "UI_ShopPurchase"
 guid = "{276FD13C-72A6-4F85-A00A-60BC5757C49D}"
 id = 2073622163
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_5ppdk"]
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_h61g6"]
 max_duration = 0.989021
 min_duration = 0.989021
 path = "\\Events\\SFX Events Work Unit\\UI\\UI_TestNotfi"
@@ -225,82 +270,82 @@ name = "UI_TestNotfi"
 guid = "{7AA64C4C-28C2-46F2-B3B0-DAE65F060EED}"
 id = 3567996390
 
-[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_l65hi"]
-max_duration = 0.407584
-min_duration = 0.407584
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_q407k"]
+max_duration = 0.241373
+min_duration = 0.220702
 path = "\\Events\\SFX Events Work Unit\\UI\\UI_TheFunny"
 type = 3
 name = "UI_TheFunny"
 guid = "{0915AEC1-A088-460D-BF1C-9E40885F81E3}"
 id = 2185775145
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_63ewg"]
-children = [SubResource("WwiseTreeObjectEvent_0g3k4"), SubResource("WwiseTreeObjectEvent_5ppdk"), SubResource("WwiseTreeObjectEvent_l65hi")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_o561g"]
+children = [SubResource("WwiseTreeObjectEvent_0hqp2"), SubResource("WwiseTreeObjectEvent_h61g6"), SubResource("WwiseTreeObjectEvent_q407k")]
 name = "UI"
 id = 1551306167
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_myib7"]
-children = [SubResource("WwiseTreeObject_viedb"), SubResource("WwiseTreeObject_hssb3"), SubResource("WwiseTreeObject_63ewg")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dipfp"]
+children = [SubResource("WwiseTreeObject_63ewg"), SubResource("WwiseTreeObject_gv40o"), SubResource("WwiseTreeObject_o561g")]
 name = "SFX Events Work Unit"
 id = 4089788718
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_gv40o"]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_orwwv"]
 path = "\\Game Parameters\\Default Work Unit\\PlayerVehicleRPM"
 type = 13
 name = "PlayerVehicleRPM"
 guid = "{03BBC1C1-8E88-496D-B4B8-9B7195BEED8B}"
 id = 3500577229
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_0hqp2"]
-children = [SubResource("WwiseTreeObject_gv40o")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_4owox"]
+children = [SubResource("WwiseTreeObject_orwwv")]
 name = "Default Work Unit"
 id = 125608783
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_h61g6"]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_d4u1n"]
 path = "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkFour"
 type = 10
 name = "HonkFour"
 guid = "{FC5FB508-779E-44B7-B183-A3EB2A9C2475}"
 id = 3019189331
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_q407k"]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_2m8v7"]
 path = "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkOne"
 type = 10
 name = "HonkOne"
 guid = "{B25294B3-B6A4-4DB4-98CA-A2A98B9BCB17}"
 id = 3445080953
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_o561g"]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_wchpu"]
 path = "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkThree"
 type = 10
 name = "HonkThree"
 guid = "{D8A75FF6-A67B-4997-BB69-D6E780801FDB}"
 id = 3025531589
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dipfp"]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_ujawv"]
 path = "\\Switches\\Default Work Unit\\VehicleHonkSwitches\\HonkTwo"
 type = 10
 name = "HonkTwo"
 guid = "{2A0D590E-3F9B-4B18-95FB-F3EE6E7A2180}"
 id = 3323547447
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_orwwv"]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_8ttr2"]
 path = "\\Switches\\Default Work Unit\\VehicleHonkSwitches"
-children = [SubResource("WwiseTreeObject_h61g6"), SubResource("WwiseTreeObject_q407k"), SubResource("WwiseTreeObject_o561g"), SubResource("WwiseTreeObject_dipfp")]
+children = [SubResource("WwiseTreeObject_d4u1n"), SubResource("WwiseTreeObject_2m8v7"), SubResource("WwiseTreeObject_wchpu"), SubResource("WwiseTreeObject_ujawv")]
 type = 11
 name = "VehicleHonkSwitches"
 guid = "{EBEEA186-1F8E-493A-8ADB-F784728A362C}"
 id = 2171598841
 
-[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_4owox"]
-children = [SubResource("WwiseTreeObject_orwwv")]
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_85ijg"]
+children = [SubResource("WwiseTreeObject_8ttr2")]
 name = "Default Work Unit"
 id = 125608783
 
 [resource]
 acoustic_texture_root = [SubResource("WwiseTreeObject_4djpx")]
-bus_root = [SubResource("WwiseTreeObject_i5cxa")]
-bank_root = [SubResource("WwiseTreeObject_yyrou")]
-event_root = [SubResource("WwiseTreeObject_26l8v"), SubResource("WwiseTreeObject_myib7")]
-game_parameter_root = [SubResource("WwiseTreeObject_0hqp2")]
-switch_root = [SubResource("WwiseTreeObject_4owox")]
+bus_root = [SubResource("WwiseTreeObject_26l8v")]
+bank_root = [SubResource("WwiseTreeObject_5n8hf")]
+event_root = [SubResource("WwiseTreeObject_hssb3"), SubResource("WwiseTreeObject_5ppdk"), SubResource("WwiseTreeObject_dipfp")]
+game_parameter_root = [SubResource("WwiseTreeObject_4owox")]
+switch_root = [SubResource("WwiseTreeObject_85ijg")]

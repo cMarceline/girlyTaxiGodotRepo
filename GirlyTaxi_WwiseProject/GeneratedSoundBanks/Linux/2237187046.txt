@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1352907638	DiaTestEventFuck			\Default Work Unit\Dialogue Events Work Unit\DiaTestEventFuck	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	587377020	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TestFolder\TestTone\Tone Generator	
+
