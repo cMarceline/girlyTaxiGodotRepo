@@ -11,7 +11,7 @@
     "GUID": "{8BC6890E-0526-4E81-9725-854D5399D832}",
     "Color": "13",
     "Language": "SFX",
-    "Hash": "{30FCC527-9EDF-D8A1-2DE5-A455AA3B197A}",
+    "Hash": "{894BCE9C-90E7-4223-9B44-5E5691066CB8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DialogueSoundBank",
     "ShortName": "DialogueSoundBank",
     "Path": "2237187046.bnk",
@@ -44,10 +44,26 @@
         }
        ]
       }
+     },
+     {
+      "Id": "3898300188",
+      "Name": "DiaTestEventFuckShit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue Events Work Unit\\DiaTestEventFuckShit",
+      "GUID": "{3F96CEE4-0564-4D3D-8139-DBC49F0030AA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "587377020"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{CA4EB534-DA19-7FE0-4C88-F46D7B68936A}"
+  "FileHash": "{F419D9D3-D526-8A02-02C3-08B78E7558B8}"
  }
 }

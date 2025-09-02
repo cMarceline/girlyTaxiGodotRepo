@@ -47,6 +47,7 @@
 					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="DiaTestEventFuck" ID="{6C8F699F-FB34-4601-B7CC-ECB98650AC4C}" WorkUnitID="{9B8F87BC-96ED-4402-9A3D-880658598C0C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DiaTestEventFuckShit" ID="{3F96CEE4-0564-4D3D-8139-DBC49F0030AA}" WorkUnitID="{9B8F87BC-96ED-4402-9A3D-880658598C0C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

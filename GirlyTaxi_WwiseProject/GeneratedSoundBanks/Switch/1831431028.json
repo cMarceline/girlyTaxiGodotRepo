@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CF9C14D0-9CFB-4BFF-826A-B3C627C47D98}",
     "Language": "SFX",
-    "Hash": "{BE21CE22-0E23-B7BA-0EC2-C96D84A6A8D9}",
+    "Hash": "{4479A566-9CEC-D43C-B2DF-B17A37285464}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestSoundBank",
     "ShortName": "TestSoundBank",
     "Path": "1831431028.bnk",
@@ -33,6 +33,22 @@
       "Name": "DiaTestEventFuck",
       "ObjectPath": "\\Events\\Default Work Unit\\Dialogue Events Work Unit\\DiaTestEventFuck",
       "GUID": "{6C8F699F-FB34-4601-B7CC-ECB98650AC4C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "587377020"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3898300188",
+      "Name": "DiaTestEventFuckShit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue Events Work Unit\\DiaTestEventFuckShit",
+      "GUID": "{3F96CEE4-0564-4D3D-8139-DBC49F0030AA}",
       "DurationType": "OneShot",
       "DurationMin": "0.25",
       "DurationMax": "0.25",
@@ -80,6 +96,6 @@
     ]
    }
   ],
-  "FileHash": "{FB7F348E-AC24-38DA-C538-FC19D7E1E858}"
+  "FileHash": "{43CC0CEB-624C-C40B-DA43-E910978E7D1E}"
  }
 }

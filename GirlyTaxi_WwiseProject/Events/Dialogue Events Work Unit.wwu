@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="DiaTestEventFuckShit" ID="{3F96CEE4-0564-4D3D-8139-DBC49F0030AA}">
+					<ChildrenList>
+						<Action Name="" ID="{ED9E8ABF-664E-468A-A875-EF98C41748FD}" ShortID="515042068">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestTone" ID="{B0813725-DE5E-4E45-97ED-BB2F3D1EFE5E}" WorkUnitID="{0806B860-40ED-4CB4-8CB8-E2E25D00B505}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

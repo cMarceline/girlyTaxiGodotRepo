@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2185775145	UI_TheFunny			\SFX Events Work Unit\UI\UI_TheFunny	
 	3567996390	UI_TestNotfi			\SFX Events Work Unit\UI\UI_TestNotfi	
 	3641870373	PlayCensorBeep			\SFX Events Work Unit\Misc\PlayCensorBeep	
+	3898300188	DiaTestEventFuckShit			\Default Work Unit\Dialogue Events Work Unit\DiaTestEventFuckShit	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2171598841	VehicleHonkSwitches			\Default Work Unit\VehicleHonkSwitches	

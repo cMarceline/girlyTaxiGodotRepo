@@ -29,12 +29,12 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Switch">GeneratedSoundBanks\Switch</Value>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
-						<Value Platform="Linux">GeneratedSoundBanks\Linux</Value>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
-						<Value Platform="Switch2">GeneratedSoundBanks\Switch2</Value>
-						<Value Platform="PS5">GeneratedSoundBanks\PS5</Value>
+						<Value Platform="Switch">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Switch</Value>
+						<Value Platform="Windows">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Windows</Value>
+						<Value Platform="Linux">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Linux\</Value>
+						<Value Platform="Mac">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Mac</Value>
+						<Value Platform="Switch2">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Switch2</Value>
+						<Value Platform="PS5">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\PS5</Value>
 					</ValueList>
 				</Property>
 				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
