@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=3 uid="uid://brsqrtvn0iasv"]
+
+[ext_resource type="PackedScene" uid="uid://2slo1xereb6s" path="res://Assets/Models/GirlyTaxi_CarMockup.fbx" id="1_x7lp0"]
+
+[sub_resource type="Gradient" id="Gradient_m1731"]
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_dkbai"]
+gradient = SubResource("Gradient_m1731")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a0byj"]
+albedo_texture = SubResource("GradientTexture1D_dkbai")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3dl0y"]
+albedo_color = Color(0.408977, 0.526673, 0.676553, 1)
+roughness = 0.25
+
+[node name="GirlyTaxi_CarMockup" instance=ExtResource("1_x7lp0")]
+
+[node name="Cube_003" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_a0byj")
+
+[node name="Cube_004" parent="Cube_003" index="0"]
+surface_material_override/1 = SubResource("StandardMaterial3D_3dl0y")

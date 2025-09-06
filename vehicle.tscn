@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://disqvn0wwq0ai"]
+[gd_scene load_steps=7 format=3 uid="uid://disqvn0wwq0ai"]
 
 [ext_resource type="Script" uid="uid://bo7cjyl1sduif" path="res://character_body_3d.gd" id="1_andsp"]
+[ext_resource type="PackedScene" uid="uid://brsqrtvn0iasv" path="res://Assets/Models/girly_taxi_car_mockup.tscn" id="2_fouyv"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_andsp"]
-radius = 5.0
+radius = 1.0
 
 [sub_resource type="FontFile" id="FontFile_noarx"]
 subpixel_positioning = 0
@@ -51,4 +52,10 @@ target_position = Vector3(0, -6, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(-20, 0, -1.74846e-06, 0, 20, 0, 1.74846e-06, 0, -20, 0, 0, 0)
+visible = false
 mesh = SubResource("TextMesh_andsp")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+
+[node name="GirlyTaxi_CarMockup" parent="." instance=ExtResource("2_fouyv")]
+transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 0, -0.0835292, 0)

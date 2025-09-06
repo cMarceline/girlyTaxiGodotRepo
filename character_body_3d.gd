@@ -25,7 +25,7 @@ var lean : float :
 func _ready() : 
 	if 1 == 0 : return
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if 1 == 0 : return
 
 # Integrate forces happens on the step before physics processing
@@ -47,7 +47,7 @@ func _physics_process(delta: float) -> void:
 	_stateChecker()
 	
 	# Align world to bestNormal
-	var surfaceNormal = _bestNormal( transform.basis.y )
+	var surfaceNormal = _bestNormal(transform.basis.y)
 	if collisionArray.size() > 0 :
 		myState = States.DRIVING
 	
@@ -69,7 +69,7 @@ func _physics_process(delta: float) -> void:
 
 	# Acceleration when Not Floating
 	if Input.is_action_pressed("Accelerate") && myState != States.FLOATING:
-		myVelocity += Vector3(0,0,100 * delta)
+		myVelocity += Vector3(0.0,0.0,5.0 * delta)
 		
 	# Applying Friction
 	elif myState == States.DRIVING :
