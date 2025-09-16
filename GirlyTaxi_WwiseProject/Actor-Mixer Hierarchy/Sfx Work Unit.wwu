@@ -23,7 +23,6 @@
 									<PropertyList>
 										<Property Name="FixDur" Type="Real32" Value="0.25"/>
 										<Property Name="StartFreq" Type="Real32" Value="725"/>
-										<Property Name="StartFreqRandMax" Type="Real32" Value="25"/>
 										<Property Name="WaveGain" Type="Real32" Value="-15"/>
 										<Property Name="WaveType" Type="int32" Value="1"/>
 									</PropertyList>
@@ -85,22 +84,22 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
+																				<XPos>150</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>19.42</XPos>
+																				<XPos>168.8374</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>700</XPos>
+																				<XPos>829</XPos>
 																				<YPos>1000</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>764.99959</XPos>
+																				<XPos>892.0496023</XPos>
 																				<YPos>50</YPos>
 																				<Flags>0</Flags>
 																			</Point>
@@ -135,12 +134,12 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
+																				<XPos>150</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>247</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>

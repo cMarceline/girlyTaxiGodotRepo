@@ -8,6 +8,8 @@ func _ready() -> void:
 	
 	if OS.has_feature("editor"):
 		Wwise.post_event_id(AK.EVENTS.PLAYTESTTONE, self)
+		print(OS.get_processor_name())
+		print(RenderingServer.get_video_adapter_name())
 
 # this just loads the wwise bank IDs so i can call the events i need
 func _loadwwisebanks() -> void:
