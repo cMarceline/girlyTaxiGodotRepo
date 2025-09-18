@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{3DFB6CC0-7114-B558-809A-24403172F46A}",
+    "Hash": "{EA83CFA8-1C19-AB4B-82DA-DE32FA3DB87A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "1355168291.bnk",
@@ -77,6 +77,48 @@
       "Name": "PlayerVehicleRPM",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerVehicleRPM",
       "GUID": "{03BBC1C1-8E88-496D-B4B8-9B7195BEED8B}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1378987991",
+      "Name": "Player_States",
+      "ObjectPath": "\\States\\Default Work Unit\\Player_States",
+      "GUID": "{BB05969C-9617-40A4-B67D-BCB40DE3BFCD}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_States\\None",
+        "GUID": "{A5156D64-8982-4CC7-AA5E-F148202FB4DC}"
+       },
+       {
+        "Id": "2481280087",
+        "Name": "Stalling",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_States\\Stalling",
+        "GUID": "{77FDC331-DDA2-4228-B80B-401E8E6E82BD}"
+       },
+       {
+        "Id": "3317037866",
+        "Name": "Driving",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_States\\Driving",
+        "GUID": "{F0EDE1A5-079D-4DB0-AB2C-D68D30D1D365}"
+       }
+      ]
+     },
+     {
+      "Id": "2721494480",
+      "Name": "Game_States",
+      "ObjectPath": "\\States\\Default Work Unit\\Game_States",
+      "GUID": "{C0251C21-A9F0-43BA-AFFD-C8E1AD6B58CE}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\None",
+        "GUID": "{4FE10663-1BCB-45EA-B11D-0C18A3D91D78}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -592,6 +634,6 @@
     ]
    }
   ],
-  "FileHash": "{B82DC22E-53CB-CED3-1B2D-4AC84CA46C2A}"
+  "FileHash": "{0C54C865-64DA-990D-AFAC-5029FE0F73CE}"
  }
 }

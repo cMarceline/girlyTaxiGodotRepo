@@ -1,3 +1,13 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1378987991	Player_States			\Default Work Unit\Player_States	
+	2721494480	Game_States			\Default Work Unit\Game_States	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Player_States			
+	2481280087	Stalling	Player_States			
+	3317037866	Driving	Player_States			
+	748895195	None	Game_States			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
