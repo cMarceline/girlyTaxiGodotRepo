@@ -1,5 +1,19 @@
 extends Node
 
+
+var lStick : Vector2 :
+	get : return Vector2(
+		Input.get_action_raw_strength("SteerL") - Input.get_action_raw_strength("SteerR"),
+		Input.get_action_raw_strength("SteerU") - Input.get_action_raw_strength("SteerD")
+	)
+
+var rStick : Vector2 :
+	get : return Vector2(
+		Input.get_action_raw_strength("camL") - Input.get_action_raw_strength("camR"),
+		Input.get_action_raw_strength("camU") - Input.get_action_raw_strength("camD")
+	)
+
+
 func _ready() -> void:
 	Wwise.register_game_obj(self, self.name)
 	Wwise.register_listener(self)

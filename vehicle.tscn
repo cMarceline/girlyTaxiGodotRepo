@@ -46,8 +46,7 @@ script = ExtResource("1_andsp")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("SphereShape3D_andsp")
 
-[node name="collisionChecker" type="RayCast3D" parent="."]
-target_position = Vector3(0, -6, 0)
+[node name="collisionChecker" type="Node3D" parent="."]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(-20, 0, -1.74846e-06, 0, 20, 0, 1.74846e-06, 0, -20, 0, 0, 0)
