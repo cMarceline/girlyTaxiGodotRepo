@@ -13,7 +13,21 @@ class EVENTS:
 	const UI_THEFUNNY : int = 2185775145
 
 class STATES:
-	pass
+
+	class GAME_STATES:
+		const GROUP : int = 2721494480
+	
+		class STATE:
+			const NONE : int = 748895195
+
+	class PLAYER_STATES:
+		const GROUP : int = 1378987991
+	
+		class STATE:
+			const DRIVING : int = 3317037866
+			const NONE : int = 748895195
+			const STALLING : int = 2481280087
+
 
 class SWITCHES:
 
