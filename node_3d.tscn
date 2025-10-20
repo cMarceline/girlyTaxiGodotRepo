@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://ql2wfyvxykj2"]
+[gd_scene load_steps=12 format=3 uid="uid://ql2wfyvxykj2"]
 
 [ext_resource type="PackedScene" uid="uid://disqvn0wwq0ai" path="res://vehicle.tscn" id="1_a202f"]
 [ext_resource type="Script" uid="uid://bf6bur0pe3euv" path="res://node_3d.gd" id="1_r3fl7"]
 [ext_resource type="Script" uid="uid://c3s7ehcl62vje" path="res://camera_3d.gd" id="2_noarx"]
+[ext_resource type="Texture2D" uid="uid://gau1w722bt35" path="res://Assets/Textures/environment-map-hdri-map-equirectangular-projection-landscape-spherical-panorama-76597879.jpg" id="4_r3fl7"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_noarx"]
 frequency = 0.932
@@ -12,11 +13,28 @@ noise = SubResource("FastNoiseLite_noarx")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r3fl7"]
 albedo_texture = SubResource("NoiseTexture2D_a0tk4")
+texture_filter = 0
 
 [sub_resource type="BoxMesh" id="BoxMesh_jka67"]
 lightmap_size_hint = Vector2i(10004, 5016)
 material = SubResource("StandardMaterial3D_r3fl7")
 size = Vector3(1000, 1, 1000)
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_jka67"]
+panorama = ExtResource("4_r3fl7")
+
+[sub_resource type="Sky" id="Sky_i5arm"]
+sky_material = SubResource("PanoramaSkyMaterial_jka67")
+
+[sub_resource type="Environment" id="Environment_a0tk4"]
+background_mode = 2
+sky = SubResource("Sky_i5arm")
+tonemap_mode = 2
+ssr_enabled = true
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_enabled = true
+glow_enabled = true
 
 [node name="Node3D" type="Node3D"]
 script = ExtResource("1_r3fl7")
@@ -30,7 +48,8 @@ axis_lock_angular_z = true
 [node name="camPivot" type="Node3D" parent="Vehicle"]
 
 [node name="Camera3D" type="Camera3D" parent="Vehicle/camPivot"]
-transform = Transform3D(-1, 0, 8.74228e-08, 2.69121e-08, 0.951439, 0.307838, -8.31774e-08, 0.307838, -0.951439, 0, 14.9879, -17.2797)
+transform = Transform3D(-1, 6.12643e-14, 8.74228e-08, 2.31921e-08, 0.96417, 0.265287, -8.42903e-08, 0.265287, -0.96417, 0, 4.71026, -6.79106)
+current = true
 fov = 100.0
 script = ExtResource("2_noarx")
 
@@ -46,3 +65,6 @@ use_collision = true
 mesh = SubResource("BoxMesh_jka67")
 
 [node name="AkEvent3D" type="AkEvent3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_a0tk4")

@@ -2,7 +2,11 @@
 
 importer="wav"
 type="AudioStreamWAV"
+<<<<<<< HEAD
 uid="uid://cxsf7yitftuld"
+=======
+uid="uid://cpddcgp6qpf3h"
+>>>>>>> 75e43b68549188ba01c62f060c34bf67ff654466
 path="res://.godot/imported/Temp_Error.wav-a0a575f72923471d7ca9294e12072bdd.sample"
 
 [deps]

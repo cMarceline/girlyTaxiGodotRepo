@@ -1,5 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	353884890	Music_TestMusic			\Music Events Work Unit\Music_TestMusic	
+	1352907638	DiaTestEventFuck			\Default Work Unit\Dialogue Events Work Unit\DiaTestEventFuck	
 	2052572755	PlayTestTone			\Default Work Unit\PlayTestTone	
+	3898300188	DiaTestEventFuckShit			\Default Work Unit\Dialogue Events Work Unit\DiaTestEventFuckShit	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	587377020	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TestFolder\TestTone\Tone Generator	

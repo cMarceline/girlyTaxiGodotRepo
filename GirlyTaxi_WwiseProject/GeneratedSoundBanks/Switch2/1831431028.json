@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CF9C14D0-9CFB-4BFF-826A-B3C627C47D98}",
     "Language": "SFX",
-    "Hash": "{F475EDE8-8F7A-9465-8A81-A6472FB24FC0}",
+    "Hash": "{4479A566-9CEC-D43C-B2DF-B17A37285464}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestSoundBank",
     "ShortName": "TestSoundBank",
     "Path": "1831431028.bnk",
@@ -28,6 +28,55 @@
      ]
     },
     "Events": [
+     {
+      "Id": "1352907638",
+      "Name": "DiaTestEventFuck",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue Events Work Unit\\DiaTestEventFuck",
+      "GUID": "{6C8F699F-FB34-4601-B7CC-ECB98650AC4C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "587377020"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3898300188",
+      "Name": "DiaTestEventFuckShit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue Events Work Unit\\DiaTestEventFuckShit",
+      "GUID": "{3F96CEE4-0564-4D3D-8139-DBC49F0030AA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "587377020"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "353884890",
+      "Name": "Music_TestMusic",
+      "ObjectPath": "\\Events\\Music Events Work Unit\\Music_TestMusic",
+      "GUID": "{7397E692-72BE-4A8F-AF84-9FAC81FE56C9}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "587377020"
+        }
+       ]
+      }
+     },
      {
       "Id": "2052572755",
       "Name": "PlayTestTone",
@@ -47,6 +96,6 @@
     ]
    }
   ],
-  "FileHash": "{632083A5-9473-E5FC-C20A-7996E46723B8}"
+  "FileHash": "{CE9F84AC-FFDF-B046-F40D-CDB97A23E43B}"
  }
 }

@@ -22,6 +22,13 @@
     "Path": "Mac"
    },
    {
+    "Name": "PS4",
+    "GUID": "{D69D669B-F1CD-4088-80D0-AD5FB26A71AA}",
+    "BasePlatform": "PS4",
+    "BasePlatformGUID": "{3AF9B9B6-6EF1-47E9-B5FE-E30C9E602C77}",
+    "Path": "PS4"
+   },
+   {
     "Name": "PS5",
     "GUID": "{3933373E-6F82-4FA0-BEC1-18C66E164363}",
     "BasePlatform": "PS5",
@@ -59,6 +66,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{D31A6C83-2276-AA0F-513E-052249DE2E3A}"
+  "FileHash": "{18DDF56B-AED1-210C-9AD6-E45981ACC2F9}"
  }
 }
