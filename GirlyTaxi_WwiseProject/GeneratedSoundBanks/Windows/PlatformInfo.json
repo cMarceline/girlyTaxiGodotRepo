@@ -10,7 +10,7 @@
    "SourceFilesRoot": "../../.cache",
    "SoundBanksRoot": ".",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "."
+   "ExternalSourcesOutputRoot": "F:/Collab/Girly-Taxi/girlyTaxiGodotRepo/GirlyTaxi_WwiseProject/GeneratedSoundBanks/Windows"
   },
   "DefaultAlign": "16",
   "Settings": {
@@ -33,6 +33,6 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
-  "FileHash": "{209A65EE-30A1-53F0-B41D-02C0064726C2}"
+  "FileHash": "{4DF117B8-2286-0197-BBEA-9E33EB0BEB14}"
  }
 }

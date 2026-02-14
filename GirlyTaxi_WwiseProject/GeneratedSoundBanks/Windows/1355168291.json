@@ -99,6 +99,12 @@
         "GUID": "{77FDC331-DDA2-4228-B80B-401E8E6E82BD}"
        },
        {
+        "Id": "3137226650",
+        "Name": "Crashing",
+        "ObjectPath": "\\States\\Default Work Unit\\Player_States\\Crashing",
+        "GUID": "{6EE324AF-03A1-4945-BF42-D8D4B05A14FC}"
+       },
+       {
         "Id": "3317037866",
         "Name": "Driving",
         "ObjectPath": "\\States\\Default Work Unit\\Player_States\\Driving",
@@ -634,6 +640,6 @@
     ]
    }
   ],
-  "FileHash": "{65D41597-F28A-19DA-4304-6D46DA5CE83A}"
+  "FileHash": "{3751450F-5640-F6E9-0D6B-4DA8E6A4A899}"
  }
 }

@@ -8,6 +8,7 @@
 						<State Name="None" ID="{A5156D64-8982-4CC7-AA5E-F148202FB4DC}"/>
 						<State Name="Driving" ID="{F0EDE1A5-079D-4DB0-AB2C-D68D30D1D365}"/>
 						<State Name="Stalling" ID="{77FDC331-DDA2-4228-B80B-401E8E6E82BD}"/>
+						<State Name="Crashing" ID="{6EE324AF-03A1-4945-BF42-D8D4B05A14FC}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Game_States" ID="{C0251C21-A9F0-43BA-AFFD-C8E1AD6B58CE}">

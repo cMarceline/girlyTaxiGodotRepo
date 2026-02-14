@@ -1,0 +1,26 @@
+{
+ "PluginInfo": {
+  "Platform": "XboxOne",
+  "BasePlatform": "XboxOne",
+  "PluginLibs": [
+   {
+    "LibName": "Wwise Tone Generator",
+    "LibId": "6684674",
+    "Type": "Source",
+    "DLL": "AkToneGen",
+    "StaticLib": "AkToneSource"
+   },
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   }
+  ],
+  "FileHash": "{6D89AB56-7D4C-64EE-7A40-E5A6B46DA550}"
+ }
+}

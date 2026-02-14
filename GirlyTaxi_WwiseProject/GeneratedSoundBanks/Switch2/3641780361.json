@@ -11,7 +11,7 @@
     "GUID": "{14776163-A349-477E-BBCD-E2C446D102D8}",
     "Color": "9",
     "Language": "SFX",
-    "Hash": "{03E447C6-B556-B8E1-25AB-EBE5E79DDF2F}",
+    "Hash": "{156603F5-08A2-C171-5CCA-E9733C0EADDF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SfxSoundBank",
     "ShortName": "SfxSoundBank",
     "Path": "3641780361.bnk",
@@ -46,7 +46,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Temp_Error.wav",
-      "CachePath": "BA/{BAC08413-65A6-73B6-242D-731B638CA33A}.wem"
+      "CachePath": "A8/{A872DB9F-1A9C-A143-2472-B8ABDA98B107}.wem"
      }
     ],
     "Plugins": {
@@ -254,6 +254,6 @@
     ]
    }
   ],
-  "FileHash": "{14AF61E0-CC14-6C2B-C0B9-60350E0AE4A7}"
+  "FileHash": "{C2A206E6-2C09-143E-BDB0-9FFD15F32950}"
  }
 }

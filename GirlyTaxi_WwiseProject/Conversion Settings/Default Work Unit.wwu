@@ -12,6 +12,8 @@
 								<Value Platform="Windows">4</Value>
 								<Value Platform="Linux">4</Value>
 								<Value Platform="Mac">4</Value>
+								<Value Platform="XboxSeriesX">4</Value>
+								<Value Platform="XboxOne">4</Value>
 								<Value Platform="Switch2">4</Value>
 								<Value Platform="PS5">4</Value>
 							</ValueList>
@@ -23,6 +25,8 @@
 								<Value Platform="Windows">0</Value>
 								<Value Platform="Linux">0</Value>
 								<Value Platform="Mac">0</Value>
+								<Value Platform="XboxSeriesX">0</Value>
+								<Value Platform="XboxOne">0</Value>
 								<Value Platform="Switch2">0</Value>
 								<Value Platform="PS5">0</Value>
 							</ValueList>
@@ -34,6 +38,8 @@
 								<Value Platform="Windows">48000</Value>
 								<Value Platform="Linux">48000</Value>
 								<Value Platform="Mac">48000</Value>
+								<Value Platform="XboxSeriesX">48000</Value>
+								<Value Platform="XboxOne">48000</Value>
 								<Value Platform="Switch2">48000</Value>
 								<Value Platform="PS5">48000</Value>
 							</ValueList>
@@ -45,6 +51,8 @@
 								<Value Platform="Windows">0</Value>
 								<Value Platform="Linux">0</Value>
 								<Value Platform="Mac">0</Value>
+								<Value Platform="XboxSeriesX">0</Value>
+								<Value Platform="XboxOne">0</Value>
 								<Value Platform="Switch2">0</Value>
 								<Value Platform="PS5">0</Value>
 							</ValueList>
@@ -56,6 +64,8 @@
 								<Value Platform="Windows">0</Value>
 								<Value Platform="Linux">0</Value>
 								<Value Platform="Mac">0</Value>
+								<Value Platform="XboxSeriesX">0</Value>
+								<Value Platform="XboxOne">0</Value>
 								<Value Platform="Switch2">0</Value>
 								<Value Platform="PS5">0</Value>
 							</ValueList>
@@ -76,6 +86,12 @@
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Mac">
 							<ConversionPlugin Name="" ID="{440579CE-2C8C-462B-B5D4-480646FFD147}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="XboxSeriesX">
+							<ConversionPlugin Name="" ID="{CBDA4DD2-6578-4192-B72E-EF5D21AAD5CA}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="XboxOne">
+							<ConversionPlugin Name="" ID="{0413B7BF-6362-448D-94D9-26541973902C}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Switch2">
 							<ConversionPlugin Name="" ID="{15853FC8-19C5-4B55-9676-05EE085FB3E4}" PluginName="PCM" CompanyID="0" PluginID="1"/>

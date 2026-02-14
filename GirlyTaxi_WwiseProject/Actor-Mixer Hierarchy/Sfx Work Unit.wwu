@@ -408,8 +408,10 @@
 							<ChildrenList>
 								<AudioFileSource Name="Temp_Error" ID="{7551981A-ACD5-4A13-98D5-F3D166FBE257}">
 									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0467967911203857"/>
+										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.272543059777102"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.121423656792027"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Temp_Error.wav</AudioFile>

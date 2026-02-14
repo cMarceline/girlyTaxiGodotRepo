@@ -10,6 +10,8 @@
 				<Platform Name="Switch" ReferencePlatform="Switch" ID="{36D64AF4-EA4B-40BF-B6E2-8D5D629692F7}"/>
 				<Platform Name="Switch2" ReferencePlatform="Switch2" ID="{358828A4-27C8-4EF2-84B7-C92DFB61668C}"/>
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{A8E4C422-3B20-41C6-97A7-563A9380D312}"/>
+				<Platform Name="XboxOne" ReferencePlatform="XboxOne" ID="{53D07A66-33A4-4E7D-A419-4FC96FC23467}"/>
+				<Platform Name="XboxSeriesX" ReferencePlatform="XboxSeriesX" ID="{39487E64-98A1-481E-A50F-9FD70DB7883C}"/>
 			</Platforms>
 			<LanguageList>
 				<Language Name="English(US)" ID="{D7559021-176C-4693-A76E-BB78F6A4257E}"/>
@@ -25,6 +27,8 @@
 						<Value Platform="Windows"></Value>
 						<Value Platform="Linux"></Value>
 						<Value Platform="Mac"></Value>
+						<Value Platform="XboxSeriesX"></Value>
+						<Value Platform="XboxOne"></Value>
 						<Value Platform="Switch2"></Value>
 						<Value Platform="PS5"></Value>
 					</ValueList>
@@ -36,6 +40,8 @@
 						<Value Platform="Windows">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Windows</Value>
 						<Value Platform="Linux">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Linux\</Value>
 						<Value Platform="Mac">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Mac</Value>
+						<Value Platform="XboxSeriesX">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\XboxSeriesX</Value>
+						<Value Platform="XboxOne">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\XboxOne</Value>
 						<Value Platform="Switch2">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\Switch2</Value>
 						<Value Platform="PS5">F:\Collab\Girly-Taxi\girlyTaxiGodotRepo\GirlyTaxi_WwiseProject\GeneratedSoundBanks\PS5</Value>
 					</ValueList>
@@ -47,6 +53,8 @@
 						<Value Platform="Windows">256</Value>
 						<Value Platform="Linux">256</Value>
 						<Value Platform="Mac">256</Value>
+						<Value Platform="XboxSeriesX">256</Value>
+						<Value Platform="XboxOne">256</Value>
 						<Value Platform="Switch2">256</Value>
 						<Value Platform="PS5">256</Value>
 					</ValueList>
@@ -61,6 +69,8 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Linux">GeneratedSoundBanks\Linux\</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="XboxSeriesX">GeneratedSoundBanks\XboxSeriesX\</Value>
+						<Value Platform="XboxOne">GeneratedSoundBanks\XboxOne\</Value>
 						<Value Platform="Switch2">GeneratedSoundBanks\Switch2\</Value>
 						<Value Platform="PS5">GeneratedSoundBanks\PS5\</Value>
 					</ValueList>
@@ -72,6 +82,8 @@
 						<Value Platform="Windows"></Value>
 						<Value Platform="Linux"></Value>
 						<Value Platform="Mac"></Value>
+						<Value Platform="XboxSeriesX"></Value>
+						<Value Platform="XboxOne"></Value>
 						<Value Platform="Switch2"></Value>
 						<Value Platform="PS5"></Value>
 					</ValueList>
@@ -83,6 +95,8 @@
 						<Value Platform="Windows"></Value>
 						<Value Platform="Linux"></Value>
 						<Value Platform="Mac"></Value>
+						<Value Platform="XboxSeriesX"></Value>
+						<Value Platform="XboxOne"></Value>
 						<Value Platform="Switch2"></Value>
 						<Value Platform="PS5"></Value>
 					</ValueList>
@@ -94,6 +108,8 @@
 						<Value Platform="Windows"></Value>
 						<Value Platform="Linux"></Value>
 						<Value Platform="Mac"></Value>
+						<Value Platform="XboxSeriesX"></Value>
+						<Value Platform="XboxOne"></Value>
 						<Value Platform="Switch2"></Value>
 						<Value Platform="PS5"></Value>
 					</ValueList>
@@ -105,6 +121,8 @@
 						<Value Platform="Windows"></Value>
 						<Value Platform="Linux"></Value>
 						<Value Platform="Mac"></Value>
+						<Value Platform="XboxSeriesX"></Value>
+						<Value Platform="XboxOne"></Value>
 						<Value Platform="Switch2"></Value>
 						<Value Platform="PS5"></Value>
 					</ValueList>
@@ -116,6 +134,8 @@
 						<Value Platform="Windows">-80</Value>
 						<Value Platform="Linux">-80</Value>
 						<Value Platform="Mac">-80</Value>
+						<Value Platform="XboxSeriesX">-80</Value>
+						<Value Platform="XboxOne">-80</Value>
 						<Value Platform="Switch2">-80</Value>
 						<Value Platform="PS5">-80</Value>
 					</ValueList>
